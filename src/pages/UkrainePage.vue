@@ -107,10 +107,10 @@ const parliamentOption = (function () {
     series: {
       type: 'custom',
       id: 'distribution',
-      data: data,
+      data,
       coordinateSystem: undefined,
-      universalTransition: true,
-      animationDurationUpdate: 1000,
+      // universalTransition: true,
+      // animationDurationUpdate: 1000,
       renderItem: (params, api) => {
         var idx = params.dataIndex;
         var viewSize = Math.min(api.getWidth(), api.getHeight() * 2);

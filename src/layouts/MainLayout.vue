@@ -11,17 +11,28 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-toolbar-title> Politiká </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item :to="{ name: 'ukraine' }" clickable>
-          <q-icon name="favorite"></q-icon>
-          <q-item-label> Verkhovna Rada of Ukraine </q-item-label>
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label> Verkhovna Rada of Ukraine </q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item :to="{ name: 'gdp' }" clickable>
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label> Real GDP </q-item-label>
+          </q-item-section>
         </q-item>
       </q-list>
     </q-drawer>

@@ -14,6 +14,11 @@ const routes: RouteRecordRaw[] = [
         name: 'ukraine',
         component: () => import('pages/UkrainePage.vue'),
       },
+      {
+        path: 'gdp',
+        name: 'gdp',
+        component: () => import('pages/GDP1980-1990Page.vue'),
+      },
     ],
   },
 
