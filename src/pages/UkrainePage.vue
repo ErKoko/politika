@@ -97,12 +97,16 @@ const parliamentOption = (function () {
     },
     tooltip: {
       trigger: 'item',
-      formatter: '{a} <br/>{b} : {c} ({d}%)',
+      formatter: '{b} : {c} %',
     },
     legend: {
-      orient: 'vertical',
-      left: 'left',
-      data: ['Direct', 'Email', 'Ad Networks', 'Video Ads', 'Search Engines'],
+      data: [
+        'Servant of the People',
+        'For the future',
+        'Ad Networks',
+        'Video Ads',
+        'Search Engines',
+      ],
     },
     series: {
       type: 'custom',
@@ -140,6 +144,7 @@ const parliamentOption = (function () {
               },
               style: {
                 fill: data[idx].color,
+                lineWidth: 2,
               },
             };
           }),

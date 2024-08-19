@@ -12,6 +12,8 @@
         />
 
         <q-toolbar-title> Politiká </q-toolbar-title>
+        <q-space></q-space>
+        <q-btn flat icon="dark_mode" round @click="$q.dark.toggle"></q-btn>
       </q-toolbar>
     </q-header>
 
