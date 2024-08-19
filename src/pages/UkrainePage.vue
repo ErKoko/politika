@@ -35,9 +35,9 @@ use([
 provide(THEME_KEY, $q.dark.isActive ? 'dark' : 'light');
 
 const data = [
-  { value: 239, name: 'Servant of the People', color: '#38b34a' },
+  { value: 235, name: 'Servant of the People', color: '#38b34a' },
   { value: 17, name: 'For the future', color: '#5c068c' },
-  { value: 18, name: 'Dovira', color: '#1a9daa' },
+  { value: 19, name: 'Dovira', color: '#1a9daa' },
   { value: 27, name: 'European Solidarity', color: '#1b3892' },
   { value: 24, name: 'Batkivshchyna', color: '#ed1c24' },
   { value: 20, name: 'Holos', color: '#fa4616' },
@@ -92,7 +92,7 @@ const parliamentOption = (function () {
   }
   return ref<EChartsOption>({
     title: {
-      text: 'Traffic Sources',
+      text: 'Parlamento de Ucrania',
       left: 'center',
     },
     tooltip: {
