@@ -129,7 +129,7 @@ const option = ref<EChartsOption>({
       data: [-1.8, 8, -7.2, -5.2, 4.5, -2.5, -19.3, 5.3, -2.6, 15.7, 23.6],
     },
     {
-      name: 'Egypt',
+      name: 'Egipto',
       type: 'bar',
       data: [3.4, 2.2, 7.3, 8.9, 8, 7.4, 4.8, 4.3, 4, 3, 2.3],
     },
@@ -137,6 +137,11 @@ const option = ref<EChartsOption>({
       name: 'Brasil',
       type: 'bar',
       data: [9.2, -4.4, 0.6, -3.4, 5.3, 7.9, 7.5, 3.6, 0.3, 3.2, -4.2],
+    },
+    {
+      name: 'Guinea Ecuatorial',
+      type: 'bar',
+      data: [4.8, 5.8, 2.2, 5, 1, 12.9, -2.3, 4.4, 2.7, -1.2, 2.5],
     },
   ],
   color: [
@@ -149,6 +154,7 @@ const option = ref<EChartsOption>({
     '#fc8452',
     '#9a60b4',
     '#ea7ccc',
+    '#3474b3',
   ],
 });
 </script>
