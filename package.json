@@ -11,7 +11,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "deploy": "git subtree push --prefix dist/spa github gh-pages"
+    "deploy": "quasar build && npx gh-pages -d dist/spa -o github"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
@@ -34,6 +34,7 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^9.0.0",
+    "gh-pages": "^6.1.1",
     "prettier": "^2.5.1",
     "typescript": "~5.5.4",
     "vite-plugin-checker": "^0.7.2",
