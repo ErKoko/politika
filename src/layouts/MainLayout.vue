@@ -30,32 +30,48 @@
           caption="Reparto de diputados"
           default-opened
         >
-          <q-item :to="{ name: 'ukraine' }" clickable>
-            <q-item-section avatar>
-              <q-icon name="pie_chart" />
-            </q-item-section>
-            <q-item-section>
-              <q-item-label> Verkhovna Rada of Ukraine </q-item-label>
-            </q-item-section>
-          </q-item>
+          <q-expansion-item
+            :header-inset-level="1"
+            expand-separator
+            icon="pie_chart"
+            label="Ucrania"
+            default-opened
+          >
+            <q-item :to="{ name: 'ukraine' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="pie_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> Verkhovna Rada of Ukraine </q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-expansion-item>
 
-          <q-item :to="{ name: 'spain' }" clickable>
-            <q-item-section avatar>
-              <q-icon name="pie_chart" />
-            </q-item-section>
-            <q-item-section>
-              <q-item-label> Congreso de los Diputados </q-item-label>
-            </q-item-section>
-          </q-item>
+          <q-expansion-item
+            :header-inset-level="1"
+            expand-separator
+            icon="pie_chart"
+            label="España"
+            default-opened
+          >
+            <q-item :to="{ name: 'spain' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="pie_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> Congreso de los Diputados </q-item-label>
+              </q-item-section>
+            </q-item>
 
-          <q-item :to="{ name: 'spain2' }" clickable>
-            <q-item-section avatar>
-              <q-icon name="pie_chart" />
-            </q-item-section>
-            <q-item-section>
-              <q-item-label> Senado de España </q-item-label>
-            </q-item-section>
-          </q-item>
+            <q-item :to="{ name: 'spain2' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="pie_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> Senado de España </q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-expansion-item>
         </q-expansion-item>
 
         <q-expansion-item
@@ -65,23 +81,31 @@
           caption="Producto Interior Bruto"
           default-opened
         >
-          <q-item :to="{ name: 'gdp' }" clickable>
-            <q-item-section avatar>
-              <q-icon name="bar_chart" />
-            </q-item-section>
-            <q-item-section>
-              <q-item-label> Real GDP </q-item-label>
-            </q-item-section>
-          </q-item>
+          <q-expansion-item
+            :header-inset-level="1"
+            expand-separator
+            icon="bar_chart"
+            label="Real GDP"
+            default-opened
+          >
+            <q-item :to="{ name: 'gdp' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="bar_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> 1980-1990 </q-item-label>
+              </q-item-section>
+            </q-item>
 
-          <q-item :to="{ name: 'gdp2' }" clickable>
-            <q-item-section avatar>
-              <q-icon name="bar_chart" />
-            </q-item-section>
-            <q-item-section>
-              <q-item-label> Real GDP </q-item-label>
-            </q-item-section>
-          </q-item>
+            <q-item :to="{ name: 'gdp2' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="bar_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> 1991-2000 </q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-expansion-item>
         </q-expansion-item>
       </q-list>
     </q-drawer>
