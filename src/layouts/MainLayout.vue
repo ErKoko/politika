@@ -36,6 +36,31 @@
             <q-item-label> Real GDP </q-item-label>
           </q-item-section>
         </q-item>
+        <q-item :to="{ name: 'gdp2' }" clickable>
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label> Real GDP </q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item :to="{ name: 'spain' }" clickable>
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label> Congreso de los Diputados </q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item :to="{ name: 'spain2' }" clickable>
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label> Senado de España </q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
