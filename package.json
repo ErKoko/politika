@@ -11,7 +11,10 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "deploy": "quasar build && npx gh-pages -d dist/spa -o github"
+    "deploy": "quasar build && npx gh-pages -d dist/spa -o github",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
@@ -36,6 +39,7 @@
     "eslint-plugin-vue": "^9.0.0",
     "gh-pages": "^6.1.1",
     "prettier": "^2.5.1",
+    "standard-version": "^9.5.0",
     "typescript": "~5.5.4",
     "vite-plugin-checker": "^0.7.2",
     "vue-tsc": "^2.0.29"
