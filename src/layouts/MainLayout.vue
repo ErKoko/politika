@@ -137,6 +137,15 @@
                   <q-item-label> BRICS 1980-1990 </q-item-label>
                 </q-item-section>
               </q-item>
+
+              <q-item :to="{ name: 'ceeac' }" clickable>
+                <q-item-section avatar>
+                  <q-icon name="bar_chart" />
+                </q-item-section>
+                <q-item-section>
+                  <q-item-label> CEEAC 1980-1990 </q-item-label>
+                </q-item-section>
+              </q-item>
             </q-expansion-item>
           </q-expansion-item>
         </q-expansion-item>

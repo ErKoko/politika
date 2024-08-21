@@ -58,6 +58,7 @@ const option = ref<EChartsOption>({
       'EAU',
       'Egypt',
       'Brasil',
+      'Ethiopia',
     ],
   },
   grid: {
@@ -121,14 +122,9 @@ const option = ref<EChartsOption>({
       data: [2.1, 0.3, 2.9, 2.9, 4.2, 4.5, 4.9, 5.9, 7.5, 6.1],
     },
     {
-      name: 'Egipto',
+      name: 'Ethiopia',
       type: 'bar',
-      data: [2.1, 0.3, 2.9, 2.9, 4.2, 4.5, 4.9, 5.9, 7.5, 6.1],
-    },
-    {
-      name: 'Egipto',
-      type: 'bar',
-      data: [2.1, 0.3, 2.9, 2.9, 4.2, 4.5, 4.9, 5.9, 7.5, 6.1],
+      data: [4, 0, 1, 7.8, -2.3, -11.4, 9.7, 13.9, 0.6, -0.5, 2.6],
     },
     {
       name: 'Brasil',

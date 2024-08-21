@@ -44,6 +44,11 @@ const routes: RouteRecordRaw[] = [
         name: 'spainand',
         component: () => import('pages/SpainAndPage.vue'),
       },
+      {
+        path: 'ceeac',
+        name: 'ceeac',
+        component: () => import('pages/GDP-CEEACPage.vue'),
+      },
     ],
   },
 

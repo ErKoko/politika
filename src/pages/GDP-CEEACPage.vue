@@ -38,7 +38,7 @@ provide(THEME_KEY, $q.dark.isActive ? 'dark' : 'light');
 
 const option = ref<EChartsOption>({
   title: {
-    text: 'GDP Growth (1991-2000)',
+    text: 'GDP Growth (1980-1990)',
     left: 'center',
   },
   tooltip: {
@@ -49,7 +49,7 @@ const option = ref<EChartsOption>({
   },
   legend: {
     padding: 40,
-    data: ['Venezuela', 'EEUU', 'Argentina', 'Brasil', 'Canada', 'México'],
+    data: ['Guinea Ecuatorial', 'Cameroon', 'Gabon', 'Congo Dem Rep'],
   },
   grid: {
     left: '3%',
@@ -60,16 +60,16 @@ const option = ref<EChartsOption>({
   xAxis: {
     type: 'category',
     data: [
-      '1991',
-      '1992',
-      '1993',
-      '1994',
-      '1995',
-      '1996',
-      '1997',
-      '1998',
-      '1999',
-      '2000',
+      '198',
+      '1981',
+      '1982',
+      '1983',
+      '1984',
+      '1985',
+      '1986',
+      '1987',
+      '1988',
+      '1990',
     ],
   },
   yAxis: {
@@ -77,34 +77,39 @@ const option = ref<EChartsOption>({
   },
   series: [
     {
-      name: 'Venezuela',
+      name: 'Guinea Ecuatorial',
       type: 'bar',
-      data: [9.7, 6.1, 0.3, -2.3, 4, -0.2, 6.4, 0.3, -6, 3.7],
+      data: [4.8, 5.8, 2.2, 5, 1, 12.9, -2.3, 4.4, 2.7, -1.2, 2.5],
     },
     {
-      name: 'EEUU',
+      name: 'Cameroon',
       type: 'bar',
-      data: [-0.1, 3.5, 2.8, 4, 2.7, 3.8, 4.4, 4.5, 4.8, 4.1],
+      data: [9.9, 17.1, 7.6, 6.8, 7.5, 8.1, 6.8, -2.2, -7.9, -1.8, -6.2],
     },
     {
-      name: 'México',
+      name: 'Chad',
       type: 'bar',
-      data: [4, 3.6, 2.9, 4.4, -5.9, 6.2, 7.2, 6.2, 2.8, 5],
+      data: [-6, -10.8, 5.4, 15.7, 5.3, 7.9, 6, 3.6, 7.5, 2, 3.2],
     },
     {
-      name: 'Argentina',
+      name: 'Congo Dem Rep',
       type: 'bar',
-      data: [10.5, 10.3, 6.3, 5.8, -2.8, 5.5, 8.1, 3.9, -3.4, -0.8],
+      data: [2.4, 0.9, -0.5, 1.4, 4.8, 0.5, 4.7, 2.7, 0.5, -1.3, -6.6],
     },
     {
-      name: 'Canada',
+      name: 'Gabon',
       type: 'bar',
-      data: [-2.1, 0.9, 2.7, 4.5, 2.7, 1.7, 4.3, 3.9, 5.1, 5.1],
+      data: [0, -4, 4.1, 2, 4.9, 5.8, -2.1, -15.4, 3.5, 15.4, 5.1],
     },
     {
-      name: 'Brasil',
+      name: 'Gabon',
       type: 'bar',
-      data: [1, -0.5, 4.7, 5.3, 4.4, 2.2, 3.4, 0.3, 0.5, 4.4],
+      data: [0, -4, 4.1, 2, 4.9, 5.8, -2.1, -15.4, 3.5, 15.4, 5.1],
+    },
+    {
+      name: 'Gabon',
+      type: 'bar',
+      data: [0, -4, 4.1, 2, 4.9, 5.8, -2.1, -15.4, 3.5, 15.4, 5.1],
     },
   ],
   color: [

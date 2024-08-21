@@ -49,7 +49,18 @@ const option = ref<EChartsOption>({
   },
   legend: {
     padding: 40,
-    data: ['Venezuela', 'España', 'EEUU', 'México', 'Argentina', 'Canada'],
+    data: [
+      'Venezuela',
+      'España',
+      'EEUU',
+      'México',
+      'Argentina',
+      'Canada',
+      'Brasil',
+      'Belize',
+      'El Salvador',
+      'Honduras',
+    ],
   },
   grid: {
     left: '3%',
@@ -106,6 +117,21 @@ const option = ref<EChartsOption>({
       name: 'Brasil',
       type: 'bar',
       data: [9.2, -4.4, 0.6, -3.4, 5.3, 7.9, 7.5, 3.6, 0.3, 3.2, -4.2],
+    },
+    {
+      name: 'Belize',
+      type: 'bar',
+      data: [5, 0.2, -7.6, 6.1, 11.3, -1.4, 7.3, 22, 10.9, 15.5, 11.2],
+    },
+    {
+      name: 'El Salvador',
+      type: 'bar',
+      data: [-8.6, -5.7, -6.3, 1.5, 1.3, 0.6, 0.2, 2.5, 1.9, 1, 4.8],
+    },
+    {
+      name: 'Honduras',
+      type: 'bar',
+      data: [0.6, -1.2, -2.1, 0.9, 6.3, 5.6, 5.3, 6.6, 1.7, 2.7, 2.8],
     },
   ],
   color: [

@@ -87,7 +87,7 @@ const parliamentOption = (function () {
   }
   return ref<EChartsOption>({
     title: {
-      text: 'Senado de España',
+      text: 'Parlamento de  Andalucía',
       left: 'center',
     },
     tooltip: {
