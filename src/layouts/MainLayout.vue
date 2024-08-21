@@ -88,21 +88,37 @@
             label="Real GDP"
             default-opened
           >
-            <q-item :to="{ name: 'gdp' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="bar_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> 1980-1990 </q-item-label>
-              </q-item-section>
-            </q-item>
+            <q-expansion-item
+              :header-inset-level="2"
+              expand-separator
+              icon="bar_chart"
+              label="Americas GDP"
+              default-opened
+            >
+              <q-item :to="{ name: 'gdpamerica' }" clickable>
+                <q-item-section avatar>
+                  <q-icon name="bar_chart" />
+                </q-item-section>
+                <q-item-section>
+                  <q-item-label> Americas 1980-1990 </q-item-label>
+                </q-item-section>
+              </q-item>
 
-            <q-item :to="{ name: 'gdp2' }" clickable>
+              <q-item :to="{ name: 'gdpamerica2' }" clickable>
+                <q-item-section avatar>
+                  <q-icon name="bar_chart" />
+                </q-item-section>
+                <q-item-section>
+                  <q-item-label> Americas 1991-2000 </q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-expansion-item>
+            <q-item :to="{ name: 'gdpbrics' }" clickable>
               <q-item-section avatar>
                 <q-icon name="bar_chart" />
               </q-item-section>
               <q-item-section>
-                <q-item-label> 1991-2000 </q-item-label>
+                <q-item-label> BRICS 1980-1990 </q-item-label>
               </q-item-section>
             </q-item>
           </q-expansion-item>

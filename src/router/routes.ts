@@ -15,9 +15,9 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/UkrainePage.vue'),
       },
       {
-        path: 'gdp',
-        name: 'gdp',
-        component: () => import('pages/GDP1980-1990Page.vue'),
+        path: 'gdpamerica2',
+        name: 'gdpamerica2',
+        component: () => import('pages/GDP-America2Page.vue'),
       },
       {
         path: 'spain',
@@ -30,9 +30,14 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/SpainPage2.vue'),
       },
       {
-        path: 'gdp2',
-        name: 'gdp2',
-        component: () => import('pages/GDP1991-2000Page.vue'),
+        path: 'gdpamerica',
+        name: 'gdpamerica',
+        component: () => import('pages/GDP-AmericaPage.vue'),
+      },
+      {
+        path: 'gdpbrics',
+        name: 'gdpbrics',
+        component: () => import('pages/GDP-BRICS+Page.vue'),
       },
     ],
   },
