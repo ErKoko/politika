@@ -39,6 +39,11 @@ const routes: RouteRecordRaw[] = [
         name: 'gdpbrics',
         component: () => import('pages/GDP-BRICS+Page.vue'),
       },
+      {
+        path: 'spainand',
+        name: 'spainand',
+        component: () => import('pages/SpainAndPage.vue'),
+      },
     ],
   },
 

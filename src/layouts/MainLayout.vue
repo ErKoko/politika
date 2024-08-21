@@ -71,6 +71,14 @@
                 <q-item-label> Senado de España </q-item-label>
               </q-item-section>
             </q-item>
+            <q-item :to="{ name: 'spainand' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="pie_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> Parlamento de Andalucía </q-item-label>
+              </q-item-section>
+            </q-item>
           </q-expansion-item>
         </q-expansion-item>
 
@@ -113,14 +121,23 @@
                 </q-item-section>
               </q-item>
             </q-expansion-item>
-            <q-item :to="{ name: 'gdpbrics' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="bar_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> BRICS 1980-1990 </q-item-label>
-              </q-item-section>
-            </q-item>
+
+            <q-expansion-item
+              :header-inset-level="2"
+              expand-separator
+              icon="bar_chart"
+              label="Alliances GDP"
+              default-opened
+            >
+              <q-item :to="{ name: 'gdpbrics' }" clickable>
+                <q-item-section avatar>
+                  <q-icon name="bar_chart" />
+                </q-item-section>
+                <q-item-section>
+                  <q-item-label> BRICS 1980-1990 </q-item-label>
+                </q-item-section>
+              </q-item>
+            </q-expansion-item>
           </q-expansion-item>
         </q-expansion-item>
       </q-list>
