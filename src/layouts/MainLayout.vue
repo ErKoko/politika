@@ -29,6 +29,7 @@
           label="Parlamentos"
           caption="Reparto de diputados"
           default-opened
+          header-class="bg-red text-white"
         >
           <q-expansion-item
             :header-inset-level="1"
@@ -71,12 +72,22 @@
                 <q-item-label> Senado de España </q-item-label>
               </q-item-section>
             </q-item>
+
             <q-item :to="{ name: 'spainand' }" clickable>
               <q-item-section avatar>
                 <q-icon name="pie_chart" />
               </q-item-section>
               <q-item-section>
                 <q-item-label> Parlamento de Andalucía </q-item-label>
+              </q-item-section>
+            </q-item>
+
+            <q-item :to="{ name: 'eu_parl' }" clickable>
+              <q-item-section avatar>
+                <q-icon name="pie_chart" />
+              </q-item-section>
+              <q-item-section>
+                <q-item-label> Parlamento de Europa </q-item-label>
               </q-item-section>
             </q-item>
           </q-expansion-item>
@@ -129,12 +140,12 @@
               label="Alliances GDP"
               default-opened
             >
-              <q-item :to="{ name: 'gdpbrics' }" clickable>
+              <q-item :to="{ name: 'gdpbrics2' }" clickable>
                 <q-item-section avatar>
                   <q-icon name="bar_chart" />
                 </q-item-section>
                 <q-item-section>
-                  <q-item-label> BRICS 1980-1990 </q-item-label>
+                  <q-item-label> BRICS 1990-2000 </q-item-label>
                 </q-item-section>
               </q-item>
 
@@ -144,6 +155,15 @@
                 </q-item-section>
                 <q-item-section>
                   <q-item-label> CEEAC 1980-1990 </q-item-label>
+                </q-item-section>
+              </q-item>
+
+              <q-item :to="{ name: 'gdp_eu' }" clickable>
+                <q-item-section avatar>
+                  <q-icon name="bar_chart" />
+                </q-item-section>
+                <q-item-section>
+                  <q-item-label> EU 1980-1990 </q-item-label>
                 </q-item-section>
               </q-item>
             </q-expansion-item>

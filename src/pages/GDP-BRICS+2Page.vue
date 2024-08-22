@@ -50,15 +50,15 @@ const option = ref<EChartsOption>({
   legend: {
     padding: 40,
     data: [
-      'Venezuela',
-      'EEUU',
-      'Argentina',
+      'China',
+      'Rusia',
+      'Sudáfrica',
+      'India',
+      'Iran',
+      'EAU',
+      'Egypt',
       'Brasil',
-      'Canada',
-      'México',
-      'Belize',
-      'El Salvador',
-      'Honduras',
+      'Ethiopia',
     ],
   },
   grid: {
@@ -87,49 +87,49 @@ const option = ref<EChartsOption>({
   },
   series: [
     {
-      name: 'Venezuela',
+      name: 'China',
       type: 'bar',
-      data: [9.7, 6.1, 0.3, -2.3, 4, -0.2, 6.4, 0.3, -6, 3.7],
+      data: [9, 14.3, 13.9, 13, 11, 9.9, 9.2, 7.9, 7.7, 8.5],
     },
     {
-      name: 'EEUU',
+      name: 'Rusia',
       type: 'bar',
-      data: [-0.1, 3.5, 2.8, 4, 2.7, 3.8, 4.4, 4.5, 4.8, 4.1],
+      data: [-5, -14.5, -8.7, -12.7, -4.1, -3.6, 1.4, -5.3, 6.3, 10.1],
     },
     {
-      name: 'México',
+      name: 'Sudáfrica',
       type: 'bar',
-      data: [4, 3.6, 2.9, 4.4, -5.9, 6.2, 7.2, 6.2, 2.8, 5],
+      data: [-1, -2.1, 1.2, 3.2, 3.1, 4.3, 2.6, 0.5, 2.4, 4.2],
     },
     {
-      name: 'Argentina',
+      name: 'India',
       type: 'bar',
-      data: [10.5, 10.3, 6.3, 5.8, -2.8, 5.5, 8.1, 3.9, -3.4, -0.8],
+      data: [1.1, 5.5, 4.8, 6.7, 7.6, 7.5, 4, 6.2, 8.8, 3.8],
     },
     {
-      name: 'Canada',
+      name: 'Iran',
       type: 'bar',
-      data: [-2.1, 0.9, 2.7, 4.5, 2.7, 1.7, 4.3, 3.9, 5.1, 5.1],
+      data: [12.7, 3.3, -1.5, -1.7, 2.4, 6.4, 1.4, 2.1, 2, 5.8],
+    },
+    {
+      name: 'EAU',
+      type: 'bar',
+      data: [2.2, 3.1, 0.3, 7.4, 6.6, 5.4, 8.6, 0.9, 3.8, 12.3],
+    },
+    {
+      name: 'Egipto',
+      type: 'bar',
+      data: [2.1, 0.3, 2.9, 2.9, 4.2, 4.5, 4.9, 5.9, 7.5, 6.1],
+    },
+    {
+      name: 'Ethiopia',
+      type: 'bar',
+      data: [4, 0, 1, 7.8, -2.3, -11.4, 9.7, 13.9, 0.6, -0.5, 2.6],
     },
     {
       name: 'Brasil',
       type: 'bar',
       data: [1, -0.5, 4.7, 5.3, 4.4, 2.2, 3.4, 0.3, 0.5, 4.4],
-    },
-    {
-      name: 'Honduras',
-      type: 'bar',
-      data: [-3.3, 6.1, 6.5, 0.2, 6.2, 1.9, 4.6, 3.6, -0.7, 7.3],
-    },
-    {
-      name: 'El Salvador',
-      type: 'bar',
-      data: [1.5, 7, 5.8, 4.7, 4.7, 0.8, 3.1, 2.7, 2.2, 1.1],
-    },
-    {
-      name: 'Belize',
-      type: 'bar',
-      data: [11.5, 12, 6.3, 0.2, 0.6, 1.1, 3.6, 3.9, 9, 13],
     },
   ],
   color: [

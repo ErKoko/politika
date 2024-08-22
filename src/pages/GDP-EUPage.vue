@@ -38,7 +38,7 @@ provide(THEME_KEY, $q.dark.isActive ? 'dark' : 'light');
 
 const option = ref<EChartsOption>({
   title: {
-    text: 'GDP Growth (1991-2000)',
+    text: 'GDP Growth (1980-1990)',
     left: 'center',
   },
   tooltip: {
@@ -50,15 +50,13 @@ const option = ref<EChartsOption>({
   legend: {
     padding: 40,
     data: [
-      'Venezuela',
-      'EEUU',
-      'Argentina',
-      'Brasil',
-      'Canada',
-      'México',
-      'Belize',
-      'El Salvador',
-      'Honduras',
+      'España',
+      'France',
+      'Germany',
+      'Portugal',
+      'Italy',
+      'Turkiye',
+      'Poland',
     ],
   },
   grid: {
@@ -70,16 +68,16 @@ const option = ref<EChartsOption>({
   xAxis: {
     type: 'category',
     data: [
-      '1991',
-      '1992',
-      '1993',
-      '1994',
-      '1995',
-      '1996',
-      '1997',
-      '1998',
-      '1999',
-      '2000',
+      '1980',
+      '1981',
+      '1982',
+      '1983',
+      '1984',
+      '1985',
+      '1986',
+      '1987',
+      '1988',
+      '1990',
     ],
   },
   yAxis: {
@@ -87,49 +85,39 @@ const option = ref<EChartsOption>({
   },
   series: [
     {
-      name: 'Venezuela',
+      name: 'España',
       type: 'bar',
-      data: [9.7, 6.1, 0.3, -2.3, 4, -0.2, 6.4, 0.3, -6, 3.7],
+      data: [1.2, -0.4, 1.2, 1.7, 1.7, 2.4, 3.4, 5.7, 5.3, 5, 3.8],
     },
     {
-      name: 'EEUU',
+      name: 'France',
       type: 'bar',
-      data: [-0.1, 3.5, 2.8, 4, 2.7, 3.8, 4.4, 4.5, 4.8, 4.1],
+      data: [1.8, 1.1, 2.5, 1.2, 1.5, 1.6, 2.3, 2.6, 4.7, 4.3, 2.9],
     },
     {
-      name: 'México',
+      name: 'Germany',
       type: 'bar',
-      data: [4, 3.6, 2.9, 4.4, -5.9, 6.2, 7.2, 6.2, 2.8, 5],
+      data: [1.3, 0.1, -0.8, 1.6, 2.8, 2.2, 2.4, 1.5, 3.7, 3.9, 5.7],
     },
     {
-      name: 'Argentina',
+      name: 'Italy',
       type: 'bar',
-      data: [10.5, 10.3, 6.3, 5.8, -2.8, 5.5, 8.1, 3.9, -3.4, -0.8],
+      data: [3.1, -1.2, 0.4, 1.2, 3.2, 2.8, 2.9, 3.2, 4.2, 3.4, 2.1],
     },
     {
-      name: 'Canada',
+      name: 'Portugal',
       type: 'bar',
-      data: [-2.1, 0.9, 2.7, 4.5, 2.7, 1.7, 4.3, 3.9, 5.1, 5.1],
+      data: [6.7, 3.5, 2.2, 1, -1, 1.6, 3.3, 7.6, 5.3, 6.6, 7.9],
     },
     {
-      name: 'Brasil',
+      name: 'Poland',
       type: 'bar',
-      data: [1, -0.5, 4.7, 5.3, 4.4, 2.2, 3.4, 0.3, 0.5, 4.4],
+      data: [-6, -10, -4.8, 5.6, -4, 3.9, 3.5, 2.3, 3.3, 3.8, -7.2],
     },
     {
-      name: 'Honduras',
+      name: 'Turkiye ',
       type: 'bar',
-      data: [-3.3, 6.1, 6.5, 0.2, 6.2, 1.9, 4.6, 3.6, -0.7, 7.3],
-    },
-    {
-      name: 'El Salvador',
-      type: 'bar',
-      data: [1.5, 7, 5.8, 4.7, 4.7, 0.8, 3.1, 2.7, 2.2, 1.1],
-    },
-    {
-      name: 'Belize',
-      type: 'bar',
-      data: [11.5, 12, 6.3, 0.2, 0.6, 1.1, 3.6, 3.9, 9, 13],
+      data: [-0.8, 4.4, 3.4, 4.8, 6.8, 4.3, 6.9, 10, 2.1, 0.3, 9.3],
     },
   ],
   color: [

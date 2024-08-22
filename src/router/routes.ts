@@ -35,6 +35,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/GDP-AmericaPage.vue'),
       },
       {
+        path: 'gdpbrics2',
+        name: 'gdpbrics2',
+        component: () => import('pages/GDP-BRICS+2Page.vue'),
+      },
+      {
         path: 'gdpbrics',
         name: 'gdpbrics',
         component: () => import('pages/GDP-BRICS+Page.vue'),
@@ -48,6 +53,16 @@ const routes: RouteRecordRaw[] = [
         path: 'ceeac',
         name: 'ceeac',
         component: () => import('pages/GDP-CEEACPage.vue'),
+      },
+      {
+        path: 'gdp_eu',
+        name: 'gdp_eu',
+        component: () => import('pages/GDP-EUPage.vue'),
+      },
+      {
+        path: 'eu_parl',
+        name: 'eu_parl',
+        component: () => import('pages/EUparlPage.vue'),
       },
     ],
   },

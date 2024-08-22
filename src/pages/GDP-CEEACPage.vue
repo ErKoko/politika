@@ -49,7 +49,16 @@ const option = ref<EChartsOption>({
   },
   legend: {
     padding: 40,
-    data: ['Guinea Ecuatorial', 'Cameroon', 'Gabon', 'Congo Dem Rep'],
+    data: [
+      'Guinea Ecuatorial',
+      'Cameroon',
+      'Gabon',
+      'Congo Dem Rep',
+      'Angola',
+      'African Central Republic',
+      'Chad',
+      'Republic of Congo',
+    ],
   },
   grid: {
     left: '3%',
@@ -60,7 +69,7 @@ const option = ref<EChartsOption>({
   xAxis: {
     type: 'category',
     data: [
-      '198',
+      '1980',
       '1981',
       '1982',
       '1983',
@@ -97,19 +106,19 @@ const option = ref<EChartsOption>({
       data: [2.4, 0.9, -0.5, 1.4, 4.8, 0.5, 4.7, 2.7, 0.5, -1.3, -6.6],
     },
     {
-      name: 'Gabon',
+      name: 'Angola',
       type: 'bar',
-      data: [0, -4, 4.1, 2, 4.9, 5.8, -2.1, -15.4, 3.5, 15.4, 5.1],
+      data: [2.4, -4.4, 0, 4.2, 6, 3.5, 2.9, 4.1, 6.1, 0, -3.5],
     },
     {
-      name: 'Gabon',
+      name: 'African Central Republic',
       type: 'bar',
-      data: [0, -4, 4.1, 2, 4.9, 5.8, -2.1, -15.4, 3.5, 15.4, 5.1],
+      data: [-3, 13, -3.6, -6, 9.9, 3.7, 7.2, 0, 1.7, 3.8, 1.4],
     },
     {
-      name: 'Gabon',
+      name: 'Republic of Congo',
       type: 'bar',
-      data: [0, -4, 4.1, 2, 4.9, 5.8, -2.1, -15.4, 3.5, 15.4, 5.1],
+      data: [12.7, 2.6, 2.4, 2.4, 2.4, 2.4, 2.3, 2.3, 21.9, 21.3, 1],
     },
   ],
   color: [
