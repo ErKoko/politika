@@ -23,75 +23,21 @@
           <q-toolbar-title>Gráficas</q-toolbar-title>
         </q-toolbar>
 
-        <q-expansion-item
-          expand-separator
-          icon="folder"
-          label="Parlamentos"
-          caption="Reparto de diputados"
-          default-opened
-          header-class="bg-red text-white"
+        <q-tree
+          ref="tree"
+          :nodes="simple"
+          node-key="label"
+          v-model:selected="selected"
+          default-expand-all
+          selected-color="primary"
+          dense
         >
-          <q-expansion-item
-            :header-inset-level="1"
-            expand-separator
-            icon="pie_chart"
-            label="Ucrania"
-            default-opened
-          >
-            <q-item :to="{ name: 'ukraine' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="pie_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> Verkhovna Rada of Ukraine </q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-expansion-item>
-
-          <q-expansion-item
-            :header-inset-level="1"
-            expand-separator
-            icon="pie_chart"
-            label="España"
-            default-opened
-          >
-            <q-item :to="{ name: 'spain' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="pie_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> Congreso de los Diputados </q-item-label>
-              </q-item-section>
-            </q-item>
-
-            <q-item :to="{ name: 'spain2' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="pie_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> Senado de España </q-item-label>
-              </q-item-section>
-            </q-item>
-
-            <q-item :to="{ name: 'spainand' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="pie_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> Parlamento de Andalucía </q-item-label>
-              </q-item-section>
-            </q-item>
-
-            <q-item :to="{ name: 'eu_parl' }" clickable>
-              <q-item-section avatar>
-                <q-icon name="pie_chart" />
-              </q-item-section>
-              <q-item-section>
-                <q-item-label> Parlamento de Europa </q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-expansion-item>
-        </q-expansion-item>
+          <template v-slot:default-body="prop">
+            <div v-if="prop.node.caption" class="text-caption">
+              {{ prop.node.caption }}
+            </div>
+          </template>
+        </q-tree>
 
         <q-expansion-item
           expand-separator
@@ -179,13 +125,114 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { QTree } from 'quasar';
+import { ref, watch } from 'vue';
+import { useRouter } from 'vue-router';
 
 defineOptions({
   name: 'MainLayout',
 });
 
+const router = useRouter();
 const leftDrawerOpen = ref(false);
+const selected = ref('');
+const tree = ref<QTree>();
+
+watch(selected, (value) => {
+  const n = tree.value?.getNodeByKey(value);
+  router.push({ name: n.path });
+});
+
+const simple = [
+  {
+    label: 'Parlamentos',
+    caption: 'Reparto de diputados',
+    icon: 'folder',
+    children: [
+      {
+        label: 'Ucrania',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Verkhovna Rada of Ukraine',
+            icon: 'pie_chart',
+            path: 'ukraine',
+          },
+        ],
+      },
+      {
+        label: 'España',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Congreso de los diputados',
+            icon: 'pie_chart',
+            path: 'spain',
+          },
+          {
+            label: 'Senado de España',
+            icon: 'pie_chart',
+            path: 'spain2',
+          },
+          {
+            label: 'Parlamento de Andalucía',
+            icon: 'pie_chart',
+            path: 'spainand',
+          },
+          {
+            label: 'Parlamento de Europa',
+            icon: 'pie_chart',
+            path: 'eu_parl',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    label: 'GDP',
+    caption: 'Producto Interior Bruto',
+    icon: 'folder',
+    children: [
+      {
+        label: 'Ucrania',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Verkhovna Rada of Ukraine',
+            icon: 'pie_chart',
+            path: 'ukraine',
+          },
+        ],
+      },
+      {
+        label: 'España',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Congreso de los diputados',
+            icon: 'pie_chart',
+            path: 'spain',
+          },
+          {
+            label: 'Senado de España',
+            icon: 'pie_chart',
+            path: 'spain2',
+          },
+          {
+            label: 'Parlamento de Andalucía',
+            icon: 'pie_chart',
+            path: 'spainand',
+          },
+          {
+            label: 'Parlamento de Europa',
+            icon: 'pie_chart',
+            path: 'eu_parl',
+          },
+        ],
+      },
+    ],
+  },
+];
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
