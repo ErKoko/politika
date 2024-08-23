@@ -20,6 +20,18 @@
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-toolbar class="bg-primary text-white shadow-2">
+          <q-btn
+            flat
+            round
+            dense
+            @click="openURL('https://github.com/ErKoko/politika')"
+          >
+            <q-avatar>
+              <img
+                src="https://avatars.githubusercontent.com/u/178798189?v=4"
+              />
+            </q-avatar>
+          </q-btn>
           <q-toolbar-title>Gráficas</q-toolbar-title>
         </q-toolbar>
 
@@ -48,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import { QTree } from 'quasar';
+import { type QTree, openURL } from 'quasar';
 import { ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 
