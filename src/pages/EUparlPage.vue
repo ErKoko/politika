@@ -97,7 +97,7 @@ const parliamentOption = (function () {
     },
     tooltip: {
       trigger: 'item',
-      formatter: '{b} : {c} %',
+      formatter: '{b} : {c}',
     },
     legend: {
       data: [
