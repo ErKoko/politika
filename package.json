@@ -21,6 +21,7 @@
     "@quasar/extras": "^1.16.4",
     "axios": "^1.2.1",
     "echarts": "^5.5.1",
+    "lodash": "^4.17.21",
     "pinia": "^2.0.11",
     "quasar": "^2.16.0",
     "vue": "^3.4.18",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^3.3.1",
     "@quasar/app-vite": "^1.9.0",
+    "@types/lodash": "^4.17.7",
     "@types/node": "^12.20.21",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
