@@ -60,6 +60,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/GDP-EUPage.vue'),
       },
       {
+        path: 'gdp_eu2',
+        name: 'gdp_eu2',
+        component: () => import('pages/GDP-EU2Page.vue'),
+      },
+      {
         path: 'eu_parl',
         name: 'eu_parl',
         component: () => import('pages/EUparlPage.vue'),

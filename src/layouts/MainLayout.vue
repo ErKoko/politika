@@ -149,6 +149,11 @@ const simple = [
             path: 'gdp_eu',
           },
           {
+            label: 'EU2',
+            icon: 'bar_chart',
+            path: 'gdp_eu2',
+          },
+          {
             label: 'BRICS+',
             icon: 'bar_chart',
             path: 'gdpbrics',
