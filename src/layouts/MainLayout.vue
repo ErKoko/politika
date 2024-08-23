@@ -194,39 +194,46 @@ const simple = [
     icon: 'folder',
     children: [
       {
-        label: 'Ucrania',
+        label: 'Real GDP',
+        caption: 'PIB real %',
         icon: 'folder',
         children: [
           {
-            label: 'Verkhovna Rada of Ukraine',
-            icon: 'pie_chart',
-            path: 'ukraine',
+            label: 'Americas',
+            icon: 'bar_chart',
+            path: 'gdpamerica',
+          },
+          {
+            label: 'Americas 2',
+            icon: 'bar_chart',
+            path: 'gdpamerica2',
           },
         ],
       },
       {
-        label: 'España',
+        label: 'Alliances',
+        caption: 'PIB real %',
         icon: 'folder',
         children: [
           {
-            label: 'Congreso de los diputados',
-            icon: 'pie_chart',
-            path: 'spain',
+            label: 'CEEAC',
+            icon: 'bar_chart',
+            path: 'ceeac',
           },
           {
-            label: 'Senado de España',
-            icon: 'pie_chart',
-            path: 'spain2',
+            label: 'EU',
+            icon: 'bar_chart',
+            path: 'gdp_eu',
           },
           {
-            label: 'Parlamento de Andalucía',
-            icon: 'pie_chart',
-            path: 'spainand',
+            label: 'BRICS+',
+            icon: 'bar_chart',
+            path: 'gdpbrics',
           },
           {
-            label: 'Parlamento de Europa',
-            icon: 'pie_chart',
-            path: 'eu_parl',
+            label: '  ',
+            icon: 'bar_chart',
+            path: '',
           },
         ],
       },

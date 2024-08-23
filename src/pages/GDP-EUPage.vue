@@ -57,6 +57,8 @@ const option = ref<EChartsOption>({
       'Italy',
       'Turkiye',
       'Poland',
+      'Hungary',
+      'Romania',
     ],
   },
   grid: {
@@ -118,6 +120,16 @@ const option = ref<EChartsOption>({
       name: 'Turkiye ',
       type: 'bar',
       data: [-0.8, 4.4, 3.4, 4.8, 6.8, 4.3, 6.9, 10, 2.1, 0.3, 9.3],
+    },
+    {
+      name: 'Hungary',
+      type: 'bar',
+      data: [0.2, 2.9, 2.8, 0.7, 2.7, -0.3, 1.5, 4.1, -0.1, 0.7, -3.5],
+    },
+    {
+      name: 'Romania',
+      type: 'bar',
+      data: [3.3, 0.1, 3.9, 6, 6, -0.1, 2.4, 0.8, -0.5, -5.8, -5.6],
     },
   ],
   color: [
