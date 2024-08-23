@@ -25,8 +25,8 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/SpainPage.vue'),
       },
       {
-        path: 'spain2',
-        name: 'spain2',
+        path: 'spainsenate',
+        name: 'spainsenate',
         component: () => import('pages/SpainPage2.vue'),
       },
       {

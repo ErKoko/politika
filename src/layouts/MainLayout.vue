@@ -78,6 +78,7 @@ const simple = [
         children: [
           {
             label: 'Verkhovna Rada of Ukraine',
+            caption: '2024',
             icon: 'pie_chart',
             path: 'ukraine',
           },
@@ -89,21 +90,25 @@ const simple = [
         children: [
           {
             label: 'Congreso de los diputados',
+            caption: '2024',
             icon: 'pie_chart',
             path: 'spain',
           },
           {
             label: 'Senado de España',
+            caption: '2024',
             icon: 'pie_chart',
-            path: 'spain2',
+            path: 'spainsenate',
           },
           {
             label: 'Parlamento de Andalucía',
+            caption: '2024',
             icon: 'pie_chart',
             path: 'spainand',
           },
           {
             label: 'Parlamento de Europa',
+            caption: '2024',
             icon: 'pie_chart',
             path: 'eu_parl',
           },
@@ -123,11 +128,13 @@ const simple = [
         children: [
           {
             label: 'Americas',
+            caption: '1980-1990',
             icon: 'bar_chart',
             path: 'gdpamerica',
           },
           {
-            label: 'Americas 2',
+            label: 'Americas',
+            caption: '1991-2000',
             icon: 'bar_chart',
             path: 'gdpamerica2',
           },
@@ -140,11 +147,13 @@ const simple = [
         children: [
           {
             label: 'CEEAC',
+            caption: '1980-1990',
             icon: 'bar_chart',
             path: 'ceeac',
           },
           {
             label: 'EU',
+            caption: '1980-1990',
             icon: 'bar_chart',
             path: 'gdp_eu',
           },
@@ -155,6 +164,7 @@ const simple = [
           },
           {
             label: 'BRICS+',
+            caption: '1980-1990',
             icon: 'bar_chart',
             path: 'gdpbrics',
           },
