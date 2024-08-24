@@ -10,6 +10,7 @@
 
 const { configure } = require('quasar/wrappers');
 const path = require('path');
+const pkg = require('./package.json');
 
 module.exports = configure(function (/* ctx */) {
   return {
@@ -54,7 +55,12 @@ module.exports = configure(function (/* ctx */) {
 
       publicPath: 'politika',
       // analyze: true,
-      // env: {},
+      env: {
+        APP_VERSION: pkg.version,
+        APP_NAME: pkg.productName,
+        APP_LICENSE: pkg.license,
+        APP_AUTHOR: pkg.author,
+      },
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
@@ -105,7 +111,7 @@ module.exports = configure(function (/* ctx */) {
       config: {},
 
       // iconSet: 'material-icons', // Quasar icon set
-      // lang: 'en-US', // Quasar language pack
+      lang: 'es', // Quasar language pack
 
       // For special cases outside of where the auto-import strategy can have an impact
       // (like functional components as one of the examples),

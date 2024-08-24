@@ -68,7 +68,7 @@ const parliamentOption = (function () {
       let newSize = (totalAngle * r) / totalRingSeatsNumber;
       for (
         let k = Math.floor((startAngle * r) / newSize) * newSize;
-        k <= Math.floor((endAngle * r) / newSize) * newSize;
+        k <= Math.floor((endAngle * r) / newSize) * newSize - 1e-6;
         k += newSize
       ) {
         let angle = k / r;

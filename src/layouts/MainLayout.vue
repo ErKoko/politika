@@ -11,7 +11,10 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Politiká </q-toolbar-title>
+        <q-toolbar-title>
+          <!-- {{ process.env.APP_NAME }} -->
+          Politiká
+        </q-toolbar-title>
         <q-space></q-space>
         <q-btn flat icon="dark_mode" round @click="$q.dark.toggle"></q-btn>
       </q-toolbar>
@@ -19,21 +22,29 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-toolbar class="bg-primary text-white shadow-2">
-          <q-btn
-            flat
-            round
-            dense
-            @click="openURL('https://github.com/ErKoko/politika')"
-          >
+        <q-item
+          class="bg-grey-4"
+          clickable
+          @click="openURL('https://github.com/ErKoko/politika')"
+        >
+          <q-item-section avatar>
             <q-avatar>
               <img
                 src="https://avatars.githubusercontent.com/u/178798189?v=4"
               />
             </q-avatar>
-          </q-btn>
-          <q-toolbar-title>Gráficas</q-toolbar-title>
-        </q-toolbar>
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>
+              <!-- {{ process.env.APP_AUTHOR }} -->
+              Adrián de Haro
+            </q-item-label>
+            <q-item-label caption>
+              <!-- Versión {{ process.env.APP_VERSION }}, licencia {{ process.env.license }} -->
+              Versión 0.0.2, licencia AGPL-3.0-only
+            </q-item-label>
+          </q-item-section>
+        </q-item>
 
         <q-tree
           ref="tree"
