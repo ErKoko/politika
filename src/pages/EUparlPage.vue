@@ -17,6 +17,5 @@ const data = [
   { value: 46, name: 'The Left', color: '#af201f' },
   { value: 32, name: 'NI', color: '#24517e' },
   { value: 25, name: 'ESN', color: '#999999' },
-  { value: 25, name: 'Vacant', color: '#f1f1f1' },
 ];
 </script>
