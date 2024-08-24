@@ -1,1 +1,0 @@
-import{_ as e,Q as r}from"./plugin-vue_export-helper.fcc2c826.js";import{Z as t,_ as a}from"./index.676a34e6.js";import"./render.a4089588.js";const c={};function o(s,n){return t(),a(r,{class:"row items-center justify-evenly"})}var m=e(c,[["render",o]]);export{m as default};
