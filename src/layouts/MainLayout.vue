@@ -145,7 +145,7 @@ const simple = [
             path: 'gdpamerica',
           },
           {
-            label: 'Americas',
+            label: 'Americas2',
             caption: '1991-2000',
             icon: 'bar_chart',
             path: 'gdpamerica2',
@@ -181,9 +181,10 @@ const simple = [
             path: 'gdpbrics',
           },
           {
-            label: '  ',
+            label: 'BRICS+2',
+            caption: '1991-2000',
             icon: 'bar_chart',
-            path: '',
+            path: 'gdpbrics2',
           },
         ],
       },

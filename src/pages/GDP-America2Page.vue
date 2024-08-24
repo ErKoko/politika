@@ -1,54 +1,18 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <v-chart :option="option" class="chart" autoresize />
+    <bar-chart :option="option" />
   </q-page>
 </template>
 
 <script setup lang="ts">
 import type { EChartsOption } from 'echarts';
-import { use } from 'echarts/core';
-import { CanvasRenderer } from 'echarts/renderers';
-import { BarChart } from 'echarts/charts';
-import {
-  TitleComponent,
-  TooltipComponent,
-  LegendComponent,
-  GridComponent,
-} from 'echarts/components';
-import VChart, { THEME_KEY } from 'vue-echarts';
-import { ref, provide } from 'vue';
-import { useQuasar } from 'quasar';
+import BarChart from 'src/components/BarChart.vue';
 
-defineOptions({
-  name: 'IndexPage',
-});
-
-const $q = useQuasar();
-
-use([
-  CanvasRenderer,
-  BarChart,
-  TitleComponent,
-  TooltipComponent,
-  LegendComponent,
-  GridComponent,
-]);
-
-provide(THEME_KEY, $q.dark.isActive ? 'dark' : 'light');
-
-const option = ref<EChartsOption>({
+const option = {
   title: {
     text: 'GDP Growth (1991-2000)',
-    left: 'center',
-  },
-  tooltip: {
-    trigger: 'axis',
-    axisPointer: {
-      type: 'shadow',
-    },
   },
   legend: {
-    padding: 40,
     data: [
       'Venezuela',
       'EEUU',
@@ -61,14 +25,7 @@ const option = ref<EChartsOption>({
       'Honduras',
     ],
   },
-  grid: {
-    left: '3%',
-    right: '4%',
-    bottom: '3%',
-    containLabel: true,
-  },
   xAxis: {
-    type: 'category',
     data: [
       '1991',
       '1992',
@@ -81,9 +38,6 @@ const option = ref<EChartsOption>({
       '1999',
       '2000',
     ],
-  },
-  yAxis: {
-    type: 'value',
   },
   series: [
     {
@@ -132,24 +86,5 @@ const option = ref<EChartsOption>({
       data: [11.5, 12, 6.3, 0.2, 0.6, 1.1, 3.6, 3.9, 9, 13],
     },
   ],
-  color: [
-    '#5470c6',
-    '#91cc75',
-    '#fac858',
-    '#ee6666',
-    '#73c0de',
-    '#3ba272',
-    '#fc8452',
-    '#9a60b4',
-    '#ea7ccc',
-    '#3474b3',
-    '#964b00',
-  ],
-});
+} as EChartsOption;
 </script>
-
-<style scoped>
-.chart {
-  height: 90vh;
-}
-</style>

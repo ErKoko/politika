@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { EChartsOption } from 'echarts';
+import type { EChartsOption } from 'echarts';
 import BarChart from 'src/components/BarChart.vue';
 
 const option = {
