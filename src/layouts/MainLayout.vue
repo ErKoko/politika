@@ -130,10 +130,16 @@ const simple = [
             path: 'spainand',
           },
           {
-            label: 'Parlamento de Europa',
+            label: 'Parlamento Europeo',
             caption: '2024',
             icon: 'pie_chart',
             path: 'eu_parl',
+          },
+          {
+            label: 'Parlamento de Argentina',
+            caption: '2024',
+            icon: 'pie_chart',
+            path: 'ar_parl',
           },
         ],
       },
@@ -182,6 +188,7 @@ const simple = [
           },
           {
             label: 'EU2',
+            caption: '1991-2000',
             icon: 'bar_chart',
             path: 'gdp_eu2',
           },

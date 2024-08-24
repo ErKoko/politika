@@ -69,6 +69,11 @@ const routes: RouteRecordRaw[] = [
         name: 'eu_parl',
         component: () => import('pages/EUparlPage.vue'),
       },
+      {
+        path: 'ar_parl',
+        name: 'ar_parl',
+        component: () => import('pages/ArgparlPage.vue'),
+      },
     ],
   },
 
