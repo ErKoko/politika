@@ -135,6 +135,12 @@ const simple = [
             icon: 'pie_chart',
             path: 'eu_parl',
           },
+        ],
+      },
+      {
+        label: 'Argentina',
+        icon: 'folder',
+        children: [
           {
             label: 'Parlamento de Argentina',
             caption: '2024',
@@ -160,6 +166,69 @@ const simple = [
             caption: '1980-1990',
             icon: 'bar_chart',
             path: 'gdpamerica',
+          },
+          {
+            label: 'Americas2',
+            caption: '1991-2000',
+            icon: 'bar_chart',
+            path: 'gdpamerica2',
+          },
+        ],
+      },
+      {
+        label: 'Alliances',
+        caption: 'PIB real %',
+        icon: 'folder',
+        children: [
+          {
+            label: 'CEEAC',
+            caption: '1980-1990',
+            icon: 'bar_chart',
+            path: 'ceeac',
+          },
+          {
+            label: 'EU',
+            caption: '1980-1990',
+            icon: 'bar_chart',
+            path: 'gdp_eu',
+          },
+          {
+            label: 'EU2',
+            caption: '1991-2000',
+            icon: 'bar_chart',
+            path: 'gdp_eu2',
+          },
+          {
+            label: 'BRICS+',
+            caption: '1980-1990',
+            icon: 'bar_chart',
+            path: 'gdpbrics',
+          },
+          {
+            label: 'BRICS+2',
+            caption: '1991-2000',
+            icon: 'bar_chart',
+            path: 'gdpbrics2',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    label: 'Inflation rate',
+    caption: 'average consumer prices ',
+    icon: 'folder',
+    children: [
+      {
+        label: 'Inflation',
+        caption: '',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Americas inf',
+            caption: '1980-1990',
+            icon: 'bar_chart',
+            path: 'infamerica',
           },
           {
             label: 'Americas2',
