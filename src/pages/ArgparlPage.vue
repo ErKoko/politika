@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <parlament-chart :data="data" title="Parlamento Europeo" />
+    <parlament-chart :data="data" title="Parlamento Argentino" />
   </q-page>
 </template>
 
@@ -27,7 +27,12 @@ const data = [
   { value: 1, name: 'Movimiento popular neuquino', color: '#2c6fb8' },
   { value: 38, name: 'La Libertad Avanza', color: '#6c4c99' },
   { value: 37, name: 'PRO', color: '#f9d80c' },
-  { value: 6, name: 'Coalición Cívica', color: '#998888' },
-  { value: 6, name: 'Coalición Cívica', color: '#998888' },
+  {
+    value: 3,
+    name: 'Movimiento de Integración y Desarrollo',
+    color: '#152b3d',
+  },
+  { value: 3, name: 'Bloque Independencia', color: '#3a5ecf' },
+  { value: 1, name: 'CREO', color: '#f14f16' },
 ];
 </script>
