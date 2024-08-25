@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <parlament-chart :data="data" title="Parlamento de Ucrania" />
+    <parlament-chart :data="data" title="Parlamento de Ucrania" :scale="60" />
   </q-page>
 </template>
 
