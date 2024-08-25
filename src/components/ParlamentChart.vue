@@ -20,10 +20,16 @@ defineOptions({
   name: 'IndexPage',
 });
 
-const props = defineProps<{
-  data: { value: number; name: string; color: string }[];
-  title: string;
-}>();
+const props = withDefaults(
+  defineProps<{
+    data: { value: number; name: string; color: string }[];
+    title: string;
+    scale?: number;
+  }>(),
+  {
+    scale: 50,
+  }
+);
 
 const $q = useQuasar();
 
@@ -106,7 +112,7 @@ const parliamentOption = (function () {
         var r1 = ((parseFloat(radius[1]) / 100) * viewSize) / 2;
         var cx = api.getWidth() * 0.5;
         var cy = api.getHeight() - 20;
-        var size = viewSize / 50;
+        var size = viewSize / props.scale;
         var points = parliamentLayout(
           angles[idx],
           angles[idx + 1],

@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <parlament-chart :data="data" title="Parlamento Argentino" />
+    <parlament-chart :data="data" title="Parlamento Argentino" :scale="55" />
   </q-page>
 </template>
 
@@ -32,7 +32,7 @@ const data = [
     name: 'Movimiento de Integración y Desarrollo',
     color: '#152b3d',
   },
-  { value: 3, name: 'Bloque Independencia', color: '#3a5ecf' },
+  { value: 3, name: 'Bloque Independencia (escisión PJ)', color: '#3a5ecf' },
   { value: 1, name: 'CREO', color: '#f14f16' },
 ];
 </script>

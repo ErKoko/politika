@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <parlament-chart :data="data" title="Parlamento de Andalucía" />
+    <parlament-chart :data="data" title="Parlamento de Andalucía" :scale="45" />
   </q-page>
 </template>
 

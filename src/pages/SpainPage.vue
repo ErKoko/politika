@@ -1,6 +1,10 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <parlament-chart :data="data" title="Congreso de los Diputados" />
+    <parlament-chart
+      :data="data"
+      title="Congreso de los Diputados"
+      :scale="60"
+    />
   </q-page>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <parlament-chart :data="data" title="Senado de España" />
+    <parlament-chart :data="data" title="Senado de España" :scale="60" />
   </q-page>
 </template>
 
