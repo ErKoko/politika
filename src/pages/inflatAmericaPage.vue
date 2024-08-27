@@ -13,7 +13,7 @@ const option = {
     text: 'inflation rate (1980-1990)',
   },
   legend: {
-    data: ['Venezuela', 'El Salvador'],
+    data: ['Venezuela', 'El Salvador', 'Canada', 'EEUU', 'México', 'Honduras'],
   },
   xAxis: {
     data: [
@@ -41,14 +41,14 @@ const option = {
       data: [17.4, 14.8, 11.7, 13.1, 11.7, 22.3, 31.9, 24.8, 19.8, 17.7, 28.3],
     },
     {
-      name: 'Chad',
+      name: 'Canada',
       type: 'bar',
-      data: [],
+      data: [1.2, 12.5, 10.8, 5.8, 4.3, 4, 4.2, 4.4, 4, 5, 4.8],
     },
     {
-      name: 'Congo Dem Rep',
+      name: 'Honduras',
       type: 'bar',
-      data: [],
+      data: [18.1,	9.4,	9,	8.2,	4.7,	3.4,	4.4,	2.5,	4.5,	9.9,	23.3],
     },
     {
       name: 'Angola',
