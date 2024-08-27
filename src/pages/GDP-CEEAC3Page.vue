@@ -10,7 +10,7 @@ import BarChart from 'src/components/BarChart.vue';
 
 const option = {
   title: {
-    text: 'GDP Growth (1991-2000)',
+    text: 'GDP Growth (2001-2010)',
   },
   legend: {
     data: [
