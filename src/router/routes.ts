@@ -50,9 +50,19 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/SpainAndPage.vue'),
       },
       {
-        path: 'ceeac',
-        name: 'ceeac',
+        path: 'gdpceeac',
+        name: 'gdpceeac',
         component: () => import('pages/GDP-CEEACPage.vue'),
+      },
+      {
+        path: 'gdpceeac2',
+        name: 'gdpceeac2',
+        component: () => import('pages/GDP-CEEAC2Page.vue'),
+      },
+      {
+        path: 'gdpceeac3',
+        name: 'gdpceeac3',
+        component: () => import('pages/GDP-CEEAC3Page.vue'),
       },
       {
         path: 'gdp_eu',

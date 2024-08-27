@@ -184,7 +184,19 @@ const simple = [
             label: 'CEEAC',
             caption: '1980-1990',
             icon: 'bar_chart',
-            path: 'ceeac',
+            path: 'gdpceeac',
+          },
+          {
+            label: 'CEEAC2',
+            caption: '1991-2000',
+            icon: 'bar_chart',
+            path: 'gdpceeac2',
+          },
+          {
+            label: 'CEEAC3',
+            caption: '1991-2000',
+            icon: 'bar_chart',
+            path: 'gdpceeac3',
           },
           {
             label: 'EU',
@@ -231,7 +243,7 @@ const simple = [
             path: 'infamerica',
           },
           {
-            label: 'Americasinf2',
+            label: 'Americas inf2',
             caption: '1991-2000',
             icon: 'bar_chart',
             path: '',
