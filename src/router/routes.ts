@@ -70,6 +70,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/GDP-EUPage.vue'),
       },
       {
+        path: 'gdp_eu1',
+        name: 'gdp_eu1',
+        component: () => import('pages/GDP-EU1Page.vue'),
+      },
+      {
         path: 'gdp_eu2',
         name: 'gdp_eu2',
         component: () => import('pages/GDP-EU2Page.vue'),
@@ -88,6 +93,16 @@ const routes: RouteRecordRaw[] = [
         path: 'infamerica',
         name: 'infamerica',
         component: () => import('pages/inflatAmericaPage.vue'),
+      },
+      {
+        path: 'infamerica2',
+        name: 'infamerica2',
+        component: () => import('pages/inflatAmerica2Page.vue'),
+      },
+      {
+        path: 'infaeu',
+        name: 'infaeu',
+        component: () => import('pages/inflatEUPage.vue'),
       },
     ],
   },

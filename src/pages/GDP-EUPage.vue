@@ -19,7 +19,12 @@ const option = {
       'Germany',
       'Portugal',
       'Italy',
-      'Turkiye',
+      'Austria',
+      'Belgium',
+      'Greece',
+      'Cyprus',
+      'Denmark',
+      'Finland',
       'Poland',
       'Hungary',
       'Romania',
@@ -71,11 +76,6 @@ const option = {
       data: [-6, -10, -4.8, 5.6, -4, 3.9, 3.5, 2.3, 3.3, 3.8, -7.2],
     },
     {
-      name: 'Turkiye ',
-      type: 'bar',
-      data: [-0.8, 4.4, 3.4, 4.8, 6.8, 4.3, 6.9, 10, 2.1, 0.3, 9.3],
-    },
-    {
       name: 'Hungary',
       type: 'bar',
       data: [0.2, 2.9, 2.8, 0.7, 2.7, -0.3, 1.5, 4.1, -0.1, 0.7, -3.5],
@@ -84,6 +84,36 @@ const option = {
       name: 'Romania',
       type: 'bar',
       data: [3.3, 0.1, 3.9, 6, 6, -0.1, 2.4, 0.8, -0.5, -5.8, -5.6],
+    },
+    {
+      name: 'Austria',
+      type: 'bar',
+      data: [2.3, -0.1, 1.9, 2.8, 0.3, 2.2, 2.3, 1.7, 1, 3.9, 4.3],
+    },
+    {
+      name: 'Belgium',
+      type: 'bar',
+      data: [4.4, -0.3, 0.6, 0.3, 2.5, 1.7, 1.8, 2.3, 4.7, 3.5, 3.1],
+    },
+    {
+      name: 'Denmark',
+      type: 'bar',
+      data: [3.3, 0.1, 3.9, 6, 6, -0.1, 2.4, 0.8, -0.5, -5.8, -5.6],
+    },
+    {
+      name: 'Cyprus',
+      type: 'bar',
+      data: [5.9, 3.1, 6.3, 5.3, 8.8, 4.7, 3.6, 7.1, 8.3, 8.1, 7.4],
+    },
+    {
+      name: 'Denmark',
+      type: 'bar',
+      data: [-0.5, -0.7, 3.7, 2.6, 4.2, 4, 4.9, 0.3, 0, 0.6, 1.5],
+    },
+    {
+      name: 'Finland',
+      type: 'bar',
+      data: [5.7, 1.3, 3.1, 3.1, 3.2, 3.5, 2.7, 3.6, 5.2, 5.1, 0.2],
     },
   ],
 } as EChartsOption;

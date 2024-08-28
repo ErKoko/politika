@@ -205,6 +205,12 @@ const simple = [
             path: 'gdp_eu',
           },
           {
+            label: 'EU1',
+            caption: '1980-1990',
+            icon: 'bar_chart',
+            path: 'gdp_eu1',
+          },
+          {
             label: 'EU2',
             caption: '1991-2000',
             icon: 'bar_chart',
@@ -246,7 +252,7 @@ const simple = [
             label: 'Americas inf2',
             caption: '1991-2000',
             icon: 'bar_chart',
-            path: '',
+            path: 'infamerica2',
           },
         ],
       },
