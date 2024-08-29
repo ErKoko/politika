@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](///compare/v0.0.2...v0.0.3) (2024-08-29)
+
+
+### Features
+
+* **app:** pages and count. added and some fixes. 0c511d8
+
+
+### Bug Fixes
+
+* **app:** Argentine parlament f889d8e
+* **app:** changed title text  from CEEAC3 aa21fd2
+* **app:** duplicated charts fixed 6a3a452
+* **app:** EUparl Vacants erased 9a24d6d
+* **app:** scale added to UkrainePage 3acb4b3
+* **app:** tooltip % erased 5da8b4f
+
 ### 0.0.2 (2024-08-21)
 
 
