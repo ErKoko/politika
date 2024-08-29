@@ -51,7 +51,6 @@
           :nodes="simple"
           node-key="label"
           v-model:selected="selected"
-          default-expand-all
           selected-color="primary"
           dense
         >
@@ -290,6 +289,98 @@ const simple = [
             caption: '1991-2000',
             icon: 'bar_chart',
             path: '',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    label: 'CPI',
+    caption: 'Consumer Price Index',
+    icon: 'folder',
+    children: [
+      {
+        label: 'Var % respecto  al año base',
+        caption: 'diciembre 2007',
+        icon: 'folder',
+        children: [
+          {
+            label: 'CPI Venezuela8',
+            caption: '2015',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela8',
+          },
+          {
+            label: 'CPI Venezuela7',
+            caption: '2014',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela7',
+          },
+          {
+            label: 'CPI Venezuela6',
+            caption: '2013',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela6',
+          },
+          {
+            label: 'CPI Venezuela5',
+            caption: '2012',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela5',
+          },
+          {
+            label: 'CPI Venezuela4',
+            caption: '2011',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela4',
+          },
+          {
+            label: 'CPI Venezuela3',
+            caption: '2010',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela3',
+          },
+          {
+            label: 'CPI Venezuela2',
+            caption: '2009',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela2',
+          },
+          {
+            label: 'CPI Venezuela',
+            caption: '2008',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela',
+          },
+          {
+            label: 'CPI Venezuela9',
+            caption: '2016',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela9',
+          },
+          {
+            label: 'CPI Venezuela10',
+            caption: '2017',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela10',
+          },
+          {
+            label: 'CPI Venezuela11',
+            caption: '2018',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela11',
+          },
+          {
+            label: 'CPI Venezuela12',
+            caption: '2019',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela12',
+          },
+          {
+            label: 'CPI Venezuela13',
+            caption: '2020',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela13',
           },
         ],
       },
