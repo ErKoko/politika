@@ -169,6 +169,26 @@ const routes: RouteRecordRaw[] = [
         name: 'cpi_venezuela13',
         component: () => import('pages/CPI/CPIVenezuela13.vue'),
       },
+      {
+        path: 'cpi_venezuela14',
+        name: 'cpi_venezuela14',
+        component: () => import('pages/CPI/CPIVenezuela14.vue'),
+      },
+      {
+        path: 'cpi_venezuela15',
+        name: 'cpi_venezuela15',
+        component: () => import('pages/CPI/CPIVenezuela15.vue'),
+      },
+      {
+        path: 'cpi_venezuela16',
+        name: 'cpi_venezuela16',
+        component: () => import('pages/CPI/CPIVenezuela16.vue'),
+      },
+      {
+        path: 'cpi_venezuela17',
+        name: 'cpi_venezuela17',
+        component: () => import('pages/CPI/CPIVenezuela17.vue'),
+      },
     ],
   },
 
