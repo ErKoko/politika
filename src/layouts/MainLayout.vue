@@ -300,7 +300,7 @@ const simple = [
     icon: 'folder',
     children: [
       {
-        label: 'Var % respecto  al año base',
+        label: 'INPC en base a indices y variaciones',
         caption: 'diciembre 2007',
         icon: 'folder',
         children: [
@@ -395,16 +395,29 @@ const simple = [
             path: 'cpi_venezuela15',
           },
           {
-            label: 'CPI Venezuela13',
-            caption: '2020',
+            label: 'CPI Venezuela16',
+            caption: '2023',
             icon: 'pie_chart',
-            path: 'cpi_venezuela13',
+            path: 'cpi_venezuela16',
           },
           {
-            label: 'CPI Venezuela13',
-            caption: '2020',
+            label: 'CPI Venezuela17',
+            caption: '2024',
             icon: 'pie_chart',
-            path: 'cpi_venezuela13',
+            path: 'cpi_venezuela17',
+          },
+        ],
+        },
+        {
+          label: 'INPC en base a indices por artículo',
+          caption: 'diciembre 2007 año base',
+          icon: 'folder',
+          children: [
+          {
+            label: 'CPI Venezuela',
+            caption: '2014',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela_al_y_no_alc',
           },
         ],
       },

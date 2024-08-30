@@ -23,7 +23,7 @@ const data = [
   { value: 4137433044125.2, name: 'agosto 2022' },
   { value: 5326371620885.8, name: 'septiembre 2022' },
   { value: 5654207045037.4, name: 'octubre 2022' },
-  { value: 6364445507967.7, name: 'noviembre 2022' },
-  { value: 8610897383990.4, name: 'diciembre 2022' },
+  { value: 24361617825592.0, name: 'noviembre 2022' },
+  { value: 24952896762596.0, name: 'diciembre 2022' },
 ];
 </script>
