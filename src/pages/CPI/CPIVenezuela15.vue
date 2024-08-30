@@ -14,7 +14,7 @@ defineOptions({
 const data = [
   { value: 100, name: 'diciembre 2007' },
   { value: 2750974553936.0, name: 'enero 2022' },
-  { value: 28321007935345, name: 'febrero 2022' },
+  { value: 2832100793534.5, name: 'febrero 2022' },
   { value: 287070232735.8, name: 'marzo 2022' },
   { value: 2997960561527.7, name: 'abril 2022' },
   { value: 3194057161863.8, name: 'mayo 2022' },
