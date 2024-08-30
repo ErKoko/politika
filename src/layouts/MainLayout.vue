@@ -389,16 +389,16 @@ const simple = [
             path: 'cpi_venezuela14',
           },
           {
-            label: 'CPI Venezuela13',
-            caption: '2020',
+            label: 'CPI Venezuela15',
+            caption: '2022',
             icon: 'pie_chart',
-            path: 'cpi_venezuela13',
+            path: 'cpi_venezuela15',
           },
           {
-            label: 'CPI Venezuela13',
-            caption: '2020',
+            label: 'CPI Venezuela16',
+            caption: '2023',
             icon: 'pie_chart',
-            path: 'cpi_venezuela13',
+            path: 'cpi_venezuela16',
           },
           {
             label: 'CPI Venezuela13',
