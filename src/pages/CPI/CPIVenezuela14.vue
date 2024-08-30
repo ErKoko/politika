@@ -13,8 +13,8 @@ defineOptions({
 
 const data = [
   { value: 100, name: 'diciembre 2007' },
-  { value: 480553055794.4, name: 'enero 2020' },
-  { value: 643008821870.1, name: 'febrero 2020' },
+  { value: 480553055794.4, name: 'enero 2021' },
+  { value: 643008821870.1, name: 'febrero 2021' },
   { value: 746784015647.9, name: 'marzo 2020' },
   { value: 930306187517.9, name: 'abril 2020' },
   { value: 1195582996917.2, name: 'mayo 2020' },
