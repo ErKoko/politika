@@ -209,6 +209,41 @@ const routes: RouteRecordRaw[] = [
         name: 'cpi_venezuela_al_y_no_alc4',
         component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc4.vue'),
       },
+      {
+        path: 'cpi_venezuela_al_y_no_alc5',
+        name: 'cpi_venezuela_al_y_no_alc5',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc5.vue'),
+      },
+      {
+        path: 'cpi_venezuela_al_y_no_alc6',
+        name: 'cpi_venezuela_al_y_no_alc6',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc6.vue'),
+      },
+      {
+        path: 'cpi_venezuela_al_y_no_alc7',
+        name: 'cpi_venezuela_al_y_no_alc7',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc7.vue'),
+      },
+      {
+        path: 'cpi_venezuela_al_y_no_alc8',
+        name: 'cpi_venezuela_al_y_no_alc8',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc8.vue'),
+      },
+      {
+        path: 'cpi_venezuela_al_y_no_alc9',
+        name: 'cpi_venezuela_al_y_no_alc9',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc9.vue'),
+      },
+      {
+        path: 'cpi_venezuela_al_y_no_alc10',
+        name: 'cpi_venezuela_al_y_no_alc10',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc10.vue'),
+      },
+      {
+        path: 'cpi_venezuela_al_y_no_alc4',
+        name: 'cpi_venezuela_al_y_no_alc4',
+        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc4.vue'),
+      },
     ],
   },
 

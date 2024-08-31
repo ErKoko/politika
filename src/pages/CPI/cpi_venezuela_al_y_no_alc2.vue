@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <pie-chart :data="data" title="IPC Venezuela 2020" />
+    <pie-chart :data="data" title="" />
   </q-page>
 </template>
 
