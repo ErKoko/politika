@@ -479,6 +479,43 @@ const simple = [
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc11',
           },
+          {
+            label: 'Venezueladebt',
+            caption: '2024',
+            icon: 'pie_chart',
+            path: 'venezueladebt',
+          },
+        ],
+      },
+      {
+        label: 'Gross Debt',
+        caption: '',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Venezueladebt',
+            caption: '1998-1999',
+            icon: 'pie_chart',
+            path: 'venezueladebt',
+          },
+          {
+            label: 'Venezueladebt2',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+          {
+            label: 'Venezueladebt3',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt3',
+          },
+          {
+            label: 'Venezueladebt2',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
         ],
       },
     ],

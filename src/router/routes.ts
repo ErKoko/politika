@@ -192,57 +192,110 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'cpi_venezuela_al_y_no_alc',
         name: 'cpi_venezuela_al_y_no_alc',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc2',
         name: 'cpi_venezuela_al_y_no_alc2',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc2.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc2.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc3',
         name: 'cpi_venezuela_al_y_no_alc3',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc3.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc3.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc4',
         name: 'cpi_venezuela_al_y_no_alc4',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc4.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc4.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc5',
         name: 'cpi_venezuela_al_y_no_alc5',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc5.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc5.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc6',
         name: 'cpi_venezuela_al_y_no_alc6',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc6.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc6.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc7',
         name: 'cpi_venezuela_al_y_no_alc7',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc7.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc7.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc8',
         name: 'cpi_venezuela_al_y_no_alc8',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc8.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc8.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc9',
         name: 'cpi_venezuela_al_y_no_alc9',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc9.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc9.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc10',
         name: 'cpi_venezuela_al_y_no_alc10',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc10.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc10.vue'
+          ),
       },
       {
         path: 'cpi_venezuela_al_y_no_alc4',
         name: 'cpi_venezuela_al_y_no_alc4',
-        component: () => import('pages/CPI/cpi_venezuela_al_y_no_alc4.vue'),
+        component: () =>
+          import(
+            'pages/CPI/alimentos y no alcoholicas/cpi_venezuela_al_y_no_alc4.vue'
+          ),
+      },
+      {
+        path: 'venezueladebt',
+        name: 'venezueladebt',
+        component: () => import('pages/Gross Debt/Venezueladebt.vue'),
+      },
+      {
+        path: 'venezueladebt2',
+        name: 'venezueladebt2',
+        component: () => import('pages/Gross Debt/Venezueladebt2.vue'),
+      },
+      {
+        path: 'venezueladebt3',
+        name: 'venezueladebt3',
+        component: () => import('pages/Gross Debt/Venezueladebt3.vue'),
+      },
+      {
+        path: 'venezueladebt2',
+        name: 'venezueladebt2',
+        component: () => import('pages/Gross Debt/Venezueladebt2.vue'),
       },
     ],
   },
