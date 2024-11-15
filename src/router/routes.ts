@@ -297,6 +297,16 @@ const routes: RouteRecordRaw[] = [
         name: 'venezueladebt2',
         component: () => import('pages/Gross Debt/Venezueladebt2.vue'),
       },
+      {
+        path: 'venezueladember',
+        name: 'venezueladember',
+        component: () => import('pages/Bertelsmann/Venezueladember.vue'),
+      },
+      {
+        path: 'venezuelagovber',
+        name: 'venezuelagovber',
+        component: () => import('pages/Bertelsmann/Venezuelagovber.vue'),
+      },
     ],
   },
 

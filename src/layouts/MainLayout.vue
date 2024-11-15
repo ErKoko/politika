@@ -518,6 +518,137 @@ const simple = [
           },
         ],
       },
+      {
+        label: 'Dem Index Bertelsmann',
+        caption: 'Dem index',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Venezueladember',
+            caption: '2024',
+            icon: 'pie_chart',
+            path: 'venezueladember',
+          },
+          {
+            label: 'Venezueladember',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+          {
+            label: 'Venezueladebt3',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt3',
+          },
+          {
+            label: 'Venezueladebt2',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+        ],
+      },
+      {
+        label: 'Dem Index Bertelsmann',
+        caption: 'Dem index',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Venezueladember',
+            caption: '2024',
+            icon: 'pie_chart',
+            path: 'venezueladember',
+          },
+          {
+            label: 'Venezueladember',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+          {
+            label: 'Venezueladebt3',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt3',
+          },
+          {
+            label: 'Venezueladebt2',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    label: 'Bertelsmann',
+    caption: 'Consumer Price Index',
+    icon: 'folder',
+    children: [
+      {
+        label: 'Dem Index Bertelsmann',
+        caption: 'Dem index',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Venezueladember',
+            caption: '2024',
+            icon: 'pie_chart',
+            path: 'venezueladember',
+          },
+          {
+            label: 'Venezueladember',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+          {
+            label: 'Venezueladebt3',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt3',
+          },
+          {
+            label: 'Venezueladebt2',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+        ],
+      },
+      {
+        label: 'Gov Index Bertelsmann',
+        caption: 'Dem index',
+        icon: 'folder',
+        children: [
+          {
+            label: 'Venezuelagovber',
+            caption: '2024',
+            icon: 'pie_chart',
+            path: 'venezuelagovber',
+          },
+          {
+            label: 'Venezueladember',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+          {
+            label: 'Venezueladebt3',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt3',
+          },
+          {
+            label: 'Venezueladebt2',
+            caption: '',
+            icon: 'pie_chart',
+            path: 'venezueladebt2',
+          },
+        ],
+      },
     ],
   },
 ];
