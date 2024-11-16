@@ -175,6 +175,19 @@ const simple = [
         ],
       },
       {
+        label: 'GDP current prices',
+        caption: 'PIB en billones de dólares',
+        icon: 'folder',
+        children: [
+          {
+            label: 'AmericasCP',
+            caption: '1991-2000',
+            icon: 'bar_chart',
+            path: 'gdpamericacp',
+          },
+        ],
+      },
+      {
         label: 'Alliances',
         caption: 'PIB real %',
         icon: 'folder',
@@ -500,21 +513,21 @@ const simple = [
           },
           {
             label: 'Venezueladebt2',
-            caption: '',
+            caption: '2000-2010',
             icon: 'pie_chart',
             path: 'venezueladebt2',
           },
           {
             label: 'Venezueladebt3',
-            caption: '',
+            caption: '2011-2020',
             icon: 'pie_chart',
             path: 'venezueladebt3',
           },
           {
-            label: 'Venezueladebt2',
-            caption: '',
+            label: 'Venezueladebt4',
+            caption: '2021-2025',
             icon: 'pie_chart',
-            path: 'venezueladebt2',
+            path: 'venezueladebt4',
           },
         ],
       },

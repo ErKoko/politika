@@ -293,9 +293,14 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/Gross Debt/Venezueladebt3.vue'),
       },
       {
-        path: 'venezueladebt2',
-        name: 'venezueladebt2',
-        component: () => import('pages/Gross Debt/Venezueladebt2.vue'),
+        path: 'venezueladebt4',
+        name: 'venezueladebt4',
+        component: () => import('pages/Gross Debt/Venezueladebt4.vue'),
+      },
+      {
+        path: 'gdpamericacp',
+        name: 'gdpamericacp',
+        component: () => import('pages/GDP/GDP-CP-AmericaPage.vue'),
       },
     ],
   },
