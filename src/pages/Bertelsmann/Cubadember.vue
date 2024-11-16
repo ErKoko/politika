@@ -14,8 +14,8 @@ defineOptions({
 const data = [
   { value: 8.8, name: 'Stateness' },
   { value: 1.5, name: 'Pol. Part.' },
-  { value: 1, name: 'Consenssus-Build.' },
-  { value: 2.3, name: 'Int. Coop.' },
-  { value: 1.6, name: 'Gov. Index' },
+  { value: 2.8, name: 'Consenssus-Build.' },
+  { value: 1, name: 'Int. Coop.' },
+  { value: 2.3, name: 'Gov. Index' },
 ];
 </script>
