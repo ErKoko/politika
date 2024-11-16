@@ -550,16 +550,10 @@ const simple = [
             path: 'venezueladember',
           },
           {
-            label: '',
-            caption: '',
-            icon: 'pie_chart',
-            path: '',
-          },
-          {
             label: 'Cubadember',
             caption: '',
             icon: 'pie_chart',
-            path: 'Cubadember',
+            path: 'cubadember',
           },
           {
             label: '',
@@ -612,10 +606,10 @@ const simple = [
             path: 'venezuelaecober',
           },
           {
-            label: '',
+            label: 'cubaecober',
             caption: '',
             icon: 'pie_chart',
-            path: '',
+            path: 'cubaecober',
           },
           {
             label: '',
