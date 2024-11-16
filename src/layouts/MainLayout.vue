@@ -581,10 +581,10 @@ const simple = [
             path: 'venezuelagovber',
           },
           {
-            label: '',
+            label: 'Cubagovber',
             caption: '',
             icon: 'pie_chart',
-            path: '',
+            path: 'cubagovber',
           },
           {
             label: '',

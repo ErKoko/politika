@@ -322,6 +322,11 @@ const routes: RouteRecordRaw[] = [
         name: 'Cubadember',
         component: () => import('pages/Bertelsmann/Cubadember.vue'),
       },
+      {
+        path: 'Cubagovber',
+        name: 'Cubagovber',
+        component: () => import('pages/Bertelsmann/Cubagovber.vue'),
+      },
     ],
   },
 
