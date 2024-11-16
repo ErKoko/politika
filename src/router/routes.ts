@@ -302,6 +302,26 @@ const routes: RouteRecordRaw[] = [
         name: 'gdpamericacp',
         component: () => import('pages/GDP/GDP-CP-AmericaPage.vue'),
       },
+      {
+        path: 'venezueladember',
+        name: 'venezueladember',
+        component: () => import('pages/Bertelsmann/Venezueladember.vue'),
+      },
+      {
+        path: 'venezuelagovber',
+        name: 'venezuelagovber',
+        component: () => import('pages/Bertelsmann/Venezuelagovber.vue'),
+      },
+      {
+        path: 'venezuelaecober',
+        name: 'venezuelaecober',
+        component: () => import('pages/Bertelsmann/Venezuelaecober.vue'),
+      },
+      {
+        path: 'Cubadember',
+        name: 'Cubadember',
+        component: () => import('pages/Bertelsmann/Cubadember.vue'),
+      },
     ],
   },
 
