@@ -12,12 +12,13 @@ defineOptions({
 });
 
 const data = [
-  { value: 4, name: 'Stateness' },
-  { value: 2, name: 'Pol. Part.' },
-  { value: 2.5, name: 'Rule of law' },
-  { value: 3, name: 'Stab. Dem. Ins.' },
-  { value: 5.5, name: 'Pol. Soc. Int.' },
-  { value: 2, name: 'Dem Status' },
-  { value: 5.5, name: 'Dem Status' },
+  { value: 4, name: 'Soc. Level' },
+  { value: 2, name: 'Market Org.' },
+  { value: 2.5, name: 'Monetary and Fiscal Stab.' },
+  { value: 3, name: 'Private Property' },
+  { value: 5.5, name: 'Welfare Reg.' },
+  { value: 2, name: 'Eco. Per.' },
+  { value: 5.5, name: 'Sustainability.' },
+  { value: 5.5, name: 'Economy Status' },
 ];
 </script>

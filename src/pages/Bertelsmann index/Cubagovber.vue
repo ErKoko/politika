@@ -12,10 +12,10 @@ defineOptions({
 });
 
 const data = [
-  { value: 6, name: 'Int. Coop.' },
-  { value: 3.2, name: 'Consensus-Building' },
-  { value: 4, name: 'Resource Eff.' },
   { value: 5.3, name: 'Esteering Cap.' },
+  { value: 4, name: 'Resource Eff.' },
+  { value: 3.2, name: 'Consensus-Building' },
+  { value: 6, name: 'Int. Coop.' },
   { value: 4.1, name: 'Gov. Index' },
 ];
 </script>
