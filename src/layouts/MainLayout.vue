@@ -534,7 +534,7 @@ const simple = [
     ],
   },
   {
-    label: 'Bertelsmann',
+    label: 'Bertelsmann index',
     caption: '',
     icon: 'folder',
     children: [

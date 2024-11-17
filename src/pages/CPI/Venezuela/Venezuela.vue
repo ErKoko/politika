@@ -13,8 +13,8 @@ defineOptions({
 
 const data = [
   { value: 100, name: 'diciembre 2007' },
-  { value: 3.1, name: 'enero 2008' },
-  { value: 5.3, name: 'febrero 2008' },
+  { value: 103.1, name: 'enero 2008' },
+  { value: 105.3, name: 'febrero 2008' },
   { value: 7.1, name: 'marzo 2008' },
   { value: 8.9, name: 'abril 2008' },
   { value: 12.4, name: 'mayo 2008' },
