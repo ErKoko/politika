@@ -28,10 +28,7 @@ const data = [
   { value: 38, name: 'La Libertad Avanza', color: '#6c4c99' },
   { value: 37, name: 'PRO', color: '#f9d80c' },
   {
-    value: 3,
-    name: 'Movimiento de Integración y Desarrollo',
-    color: '#152b3d',
-  },
+    value: 3, name: 'Movimiento de Integración y Desarrollo', color: '#152b3d',},
   { value: 3, name: 'Bloque Independencia (escisión PJ)', color: '#3a5ecf' },
   { value: 1, name: 'CREO', color: '#f14f16' },
 ];

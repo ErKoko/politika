@@ -12,7 +12,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'ukraine',
         name: 'ukraine',
-        component: () => import('pages/Parliaments/UkrainePage.vue'),
+        component: () => import('pages/Parliaments/UkrP.vue'),
       },
       {
         path: 'gdpamerica2',
@@ -22,12 +22,12 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'spain',
         name: 'spain',
-        component: () => import('pages/Parliaments/SpainPage.vue'),
+        component: () => import('pages/Parliaments/SpainP.vue'),
       },
       {
         path: 'spainsenate',
         name: 'spainsenate',
-        component: () => import('pages/Parliaments/SpainPage2.vue'),
+        component: () => import('pages/Parliaments/SpainSenate.vue'),
       },
       {
         path: 'gdpamerica',
@@ -47,7 +47,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'spainand',
         name: 'spainand',
-        component: () => import('src/pages/Parliaments/SpainAndPage.vue'),
+        component: () => import('pages/Parliaments/AndalusiaP.vue'),
       },
       {
         path: 'gdpceeac',
@@ -82,27 +82,27 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'eu_parl',
         name: 'eu_parl',
-        component: () => import('src/pages/Parliaments/EUparlPage.vue'),
+        component: () => import('pages/Parliaments/EUP.vue'),
       },
       {
         path: 'ar_parl',
         name: 'ar_parl',
-        component: () => import('pages/Parliaments/ArgparlPage.vue'),
+        component: () => import('pages/Parliaments/ArgP.vue'),
       },
       {
         path: 'infamerica',
         name: 'infamerica',
-        component: () => import('pages/Inflation/inflatAmericaPage.vue'),
+        component: () => import('pages/Inflation/IAmericaP.vue'),
       },
       {
         path: 'infamerica2',
         name: 'infamerica2',
-        component: () => import('pages/Inflation/inflatAmerica2Page.vue'),
+        component: () => import('pages/Inflation/IAmerica2P.vue'),
       },
       {
         path: 'infaeu',
         name: 'infaeu',
-        component: () => import('pages/Inflation/inflatEUPage.vue'),
+        component: () => import('pages/Inflation/IEUP.vue'),
       },
       {
         path: 'cpi_venezuela8',
@@ -285,22 +285,22 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'venezueladebt',
         name: 'venezueladebt',
-        component: () => import('pages/Gross Debt/Venezueladebt.vue'),
+        component: () => import('pages/Gross Debt/Venezuela.vue'),
       },
       {
         path: 'venezueladebt2',
         name: 'venezueladebt2',
-        component: () => import('pages/Gross Debt/Venezueladebt2.vue'),
+        component: () => import('pages/Gross Debt/Venezuela2.vue'),
       },
       {
         path: 'venezueladebt3',
         name: 'venezueladebt3',
-        component: () => import('pages/Gross Debt/Venezueladebt3.vue'),
+        component: () => import('pages/Gross Debt/Venezuela3.vue'),
       },
       {
         path: 'venezueladebt4',
         name: 'venezueladebt4',
-        component: () => import('pages/Gross Debt/Venezueladebt4.vue'),
+        component: () => import('pages/Gross Debt/Venezuela4.vue'),
       },
       {
         path: 'gdpamericacp',

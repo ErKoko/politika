@@ -12,10 +12,10 @@ defineOptions({
 });
 
 const data = [
-  { value: 1.7, name: 'Steering Cap.' },
-  { value: 1.3, name: 'Resource Eff.' },
-  { value: 1.8, name: 'Consensus-Build.' },
-  { value: 2.7, name: 'Int. Coop.' },
-  { value: 1.6, name: 'Gov. Index' },
+  { value: 6.3, name: 'Steering Cap.' },
+  { value: 5.7, name: 'Resource Eff.' },
+  { value: 7.8, name: 'Consensus-Build.' },
+  { value: 8.7, name: 'Int. Coop.' },
+  { value: 6.6, name: 'Gov. Index' },
 ];
 </script>

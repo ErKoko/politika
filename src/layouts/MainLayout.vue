@@ -151,12 +151,12 @@ const simple = [
     ],
   },
   {
-    label: 'GDP',
+    label: 'PIB',
     caption: 'Producto Interior Bruto',
     icon: 'folder',
     children: [
       {
-        label: 'Real GDP',
+        label: 'PIB real',
         caption: 'PIB real %',
         icon: 'folder',
         children: [
@@ -167,7 +167,7 @@ const simple = [
             path: 'gdpamerica',
           },
           {
-            label: 'Americas2',
+            label: 'Americas',
             caption: '1991-2000',
             icon: 'bar_chart',
             path: 'gdpamerica2',
@@ -175,12 +175,12 @@ const simple = [
         ],
       },
       {
-        label: 'GDP current prices',
+        label: 'PBI precios corrientes',
         caption: 'PIB en billones de dólares',
         icon: 'folder',
         children: [
           {
-            label: 'AmericasCP',
+            label: 'Americas',
             caption: '1991-2000',
             icon: 'bar_chart',
             path: 'gdpamericacp',
@@ -255,13 +255,13 @@ const simple = [
         icon: 'folder',
         children: [
           {
-            label: 'Americas inf',
+            label: 'Americas',
             caption: '1980-1990',
             icon: 'bar_chart',
             path: 'infamerica',
           },
           {
-            label: 'Americas inf2',
+            label: 'Americas',
             caption: '1991-2000',
             icon: 'bar_chart',
             path: 'infamerica2',
@@ -308,8 +308,8 @@ const simple = [
     ],
   },
   {
-    label: 'CPI',
-    caption: 'Consumer Price Index',
+    label: 'IPC',
+    caption: 'Índice de Precios al Consumidor',
     icon: 'folder',
     children: [
       {
@@ -318,109 +318,109 @@ const simple = [
         icon: 'folder',
         children: [
           {
-            label: 'CPI Venezuela8',
-            caption: '2015',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela8',
-          },
-          {
-            label: 'CPI Venezuela7',
-            caption: '2014',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela7',
-          },
-          {
-            label: 'CPI Venezuela6',
-            caption: '2013',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela6',
-          },
-          {
-            label: 'CPI Venezuela5',
-            caption: '2012',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela5',
-          },
-          {
-            label: 'CPI Venezuela4',
-            caption: '2011',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela4',
-          },
-          {
-            label: 'CPI Venezuela3',
-            caption: '2010',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela3',
-          },
-          {
-            label: 'CPI Venezuela2',
-            caption: '2009',
-            icon: 'pie_chart',
-            path: 'cpi_venezuela2',
-          },
-          {
-            label: 'CPI Venezuela',
+            label: 'Venezuela',
             caption: '2008',
             icon: 'pie_chart',
             path: 'cpi_venezuela',
           },
           {
-            label: 'CPI Venezuela1-2',
+            label: 'Venezuela1-2',
             caption: '2008-2009',
             icon: 'pie_chart',
             path: 'cpi_venezuela1-2',
           },
           {
-            label: 'CPI Venezuela9',
+            label: 'Venezuela2',
+            caption: '2009',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela2',
+          },
+          {
+            label: 'Venezuela3',
+            caption: '2010',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela3',
+          },
+          {
+            label: 'Venezuela4',
+            caption: '2011',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela4',
+          },
+          {
+            label: 'Venezuela5',
+            caption: '2012',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela5',
+          },
+          {
+            label: 'Venezuela6',
+            caption: '2013',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela6',
+          },
+          {
+            label: 'Venezuela7',
+            caption: '2014',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela7',
+          },
+          {
+            label: 'Venezuela8',
+            caption: '2015',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela8',
+          },
+          {
+            label: 'Venezuela9',
             caption: '2016',
             icon: 'pie_chart',
             path: 'cpi_venezuela9',
           },
           {
-            label: 'CPI Venezuela10',
+            label: 'Venezuela10',
             caption: '2017',
             icon: 'pie_chart',
             path: 'cpi_venezuela10',
           },
           {
-            label: 'CPI Venezuela11',
+            label: 'Venezuela11',
             caption: '2018',
             icon: 'pie_chart',
             path: 'cpi_venezuela11',
           },
           {
-            label: 'CPI Venezuela12',
+            label: 'Venezuela12',
             caption: '2019',
             icon: 'pie_chart',
             path: 'cpi_venezuela12',
           },
           {
-            label: 'CPI Venezuela13',
+            label: 'Venezuela13',
             caption: '2020',
             icon: 'pie_chart',
             path: 'cpi_venezuela13',
           },
           {
-            label: 'CPI Venezuela14',
+            label: 'Venezuela14',
             caption: '2021',
             icon: 'pie_chart',
             path: 'cpi_venezuela14',
           },
           {
-            label: 'CPI Venezuela15',
+            label: 'Venezuela15',
             caption: '2022',
             icon: 'pie_chart',
             path: 'cpi_venezuela15',
           },
           {
-            label: 'CPI Venezuela16',
+            label: 'Venezuela16',
             caption: '2023',
             icon: 'pie_chart',
             path: 'cpi_venezuela16',
           },
           {
-            label: 'CPI Venezuela17',
+            label: 'Venezuela17',
             caption: '2024',
             icon: 'pie_chart',
             path: 'cpi_venezuela17',
@@ -433,67 +433,67 @@ const simple = [
         icon: 'folder',
         children: [
           {
-            label: 'CPI Venezuela_al_y_no_alc',
+            label: 'Venezuela_al_y_no_alc',
             caption: '2014',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc2',
+            label: 'Venezuela_al_y_no_alc2',
             caption: '2015',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc2',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc3',
+            label: 'Venezuela_al_y_no_alc3',
             caption: '2016',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc3',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc4',
+            label: 'Venezuela_al_y_no_alc4',
             caption: '2017',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc4',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc5',
+            label: 'Venezuela_al_y_no_alc5',
             caption: '2018',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc5',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc6',
+            label: 'Venezuela_al_y_no_alc6',
             caption: '2019',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc6',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc7',
+            label: 'Venezuela_al_y_no_alc7',
             caption: '2020',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc7',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc8',
+            label: 'Venezuela_al_y_no_alc8',
             caption: '2021',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc8',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc9',
+            label: 'Venezuela_al_y_no_alc9',
             caption: '2022',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc9',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc10',
+            label: 'Venezuela_al_y_no_alc10',
             caption: '2023',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc10',
           },
           {
-            label: 'CPI Venezuela_al_y_no_alc11',
+            label: 'Venezuela_al_y_no_alc11',
             caption: '2024',
             icon: 'pie_chart',
             path: 'cpi_venezuela_al_y_no_alc11',
@@ -541,7 +541,7 @@ const simple = [
   },
   {
     label: 'Bertelsmann index',
-    caption: '',
+    caption: '2006-2024',
     icon: 'folder',
     children: [
       {

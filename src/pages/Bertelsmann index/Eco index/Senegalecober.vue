@@ -13,11 +13,12 @@ defineOptions({
 
 const data = [
   { value: 2, name: 'Soc level' },
-  { value: 2.8, name: 'Market Org' },
-  { value: 1.5, name: 'Monetary and fiscal' },
-  { value: 3, name: 'Private Property' },
-  { value: 1, name: 'Economic performance' },
-  { value: 2.5, name: 'Sustainability' },
-  { value: 2.4, name: 'Eco. Status' },
+  { value: 5.8, name: 'Market Org' },
+  { value: 6.5, name: 'Monetary and fiscal' },
+  { value: 6.5, name: 'Private Property' },
+  { value: 4.5, name: 'Private Property' },
+  { value: 6, name: 'Economic performance' },
+  { value: 3.5, name: 'Sustainability' },
+  { value: 5, name: 'Eco. Status' },
 ];
 </script>
