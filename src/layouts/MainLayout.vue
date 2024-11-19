@@ -366,6 +366,12 @@ const simple = [
             path: 'cpi_venezuela',
           },
           {
+            label: 'CPI Venezuela1-2',
+            caption: '2008-2009',
+            icon: 'pie_chart',
+            path: 'cpi_venezuela1-2',
+          },
+          {
             label: 'CPI Venezuela9',
             caption: '2016',
             icon: 'pie_chart',
@@ -544,22 +550,22 @@ const simple = [
         icon: 'folder',
         children: [
           {
-            label: 'Venezueladember',
+            label: 'Venezuela',
             caption: '2024',
             icon: 'pie_chart',
             path: 'venezueladember',
           },
           {
-            label: 'Cubadember',
+            label: 'Cuba',
             caption: '',
             icon: 'pie_chart',
             path: 'cubadember',
           },
           {
-            label: '',
+            label: 'Senegal',
             caption: '',
             icon: 'pie_chart',
-            path: '',
+            path: 'senegal',
           },
         ],
       },

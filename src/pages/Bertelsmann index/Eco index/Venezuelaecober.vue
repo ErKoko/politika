@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import PieChart from 'src/components/PieChart.vue';
+import PieChart from 'components/PieChart.vue';
 
 defineOptions({
   name: 'IndexPage',

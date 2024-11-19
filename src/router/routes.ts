@@ -145,6 +145,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/CPI/Venezuela/Venezuela.vue'),
       },
       {
+        path: 'cpi_venezuela1-2',
+        name: 'cpi_venezuela1-2',
+        component: () => import('pages/CPI/Venezuela/Venezuela1-2.vue'),
+      },
+      {
         path: 'cpi_venezuela9',
         name: 'cpi_venezuela9',
         component: () => import('pages/CPI/Venezuela/Venezuela9.vue'),
@@ -305,32 +310,37 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'venezueladember',
         name: 'venezueladember',
-        component: () => import('pages/Bertelsmann index/Venezueladember.vue'),
+        component: () => import('pages/Bertelsmann index/Dem index/Venezuela.vue'),
       },
       {
         path: 'venezuelagovber',
         name: 'venezuelagovber',
-        component: () => import('pages/Bertelsmann index/Venezuelagovber.vue'),
+        component: () => import('pages/Bertelsmann index/Gov index/Venezuelagovber.vue'),
       },
       {
         path: 'venezuelaecober',
         name: 'venezuelaecober',
-        component: () => import('pages/Bertelsmann index/Venezuelaecober.vue'),
+        component: () => import('pages/Bertelsmann index/Eco index/Venezuelaecober.vue'),
       },
       {
         path: 'cubadember',
         name: 'cubadember',
-        component: () => import('pages/Bertelsmann index/Cubadember.vue'),
+        component: () => import('pages/Bertelsmann index/Dem index/Cuba.vue'),
+      },
+      {
+        path: 'senegal',
+        name: 'senegal',
+        component: () => import('pages/Bertelsmann index/Dem index/Senegal.vue'),
       },
       {
         path: 'cubagovber',
         name: 'cubagovber',
-        component: () => import('pages/Bertelsmann index/Cubagovber.vue'),
+        component: () => import('pages/Bertelsmann index/Gov index/Cubagovber.vue'),
       },
       {
         path: 'cubaecoer',
         name: 'cubaecober',
-        component: () => import('pages/Bertelsmann index/Cubaecober.vue'),
+        component: () => import('pages/Bertelsmann index/Eco index/Cubaecober.vue'),
       },
     ],
   },
