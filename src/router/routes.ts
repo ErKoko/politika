@@ -338,9 +338,19 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/Bertelsmann index/Gov index/Cubagovber.vue'),
       },
       {
-        path: 'cubaecoer',
+        path: 'cubaecober',
         name: 'cubaecober',
         component: () => import('pages/Bertelsmann index/Eco index/Cubaecober.vue'),
+      },
+      {
+        path: 'senegalecober',
+        name: 'senegalecober',
+        component: () => import('pages/Bertelsmann index/Eco index/Senegalecober.vue'),
+      },
+      {
+        path: 'senegalgovober',
+        name: 'senegalgovber',
+        component: () => import('pages/Bertelsmann index/Gov index/Senegalgovber.vue'),
       },
     ],
   },
