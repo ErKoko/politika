@@ -1,6 +1,6 @@
 # Politiká (politika)
 
-Welcome to my first proyect where yo can create parliamentary charts, and Bar graphs with the data you provide(GDP, Indexes... for example).
+Welcome to my first proyect where yo can create parliamentary charts, and Bar graphs with the data you provide (GDP, Indexes... for example).
 
 ## Install the dependencies
 
